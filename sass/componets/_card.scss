@@ -1,0 +1,98 @@
+.slide1{
+  &__card{
+    width: 40rem;
+    height: 29rem;
+    background-image:linear-gradient(to left, #ed6768,#e54138);
+    position: relative;
+    top: 100px;
+    border-radius: 25px;
+    &--img{
+      position: absolute;
+      top: -11rem;
+      left: -4rem;
+    }
+    &--name{
+      position: absolute;
+      bottom: 6%;
+      left: 9%;
+      color: $characters-name;
+      font-size: 2rem;
+      font-family: 'Sniglet', sans-serif;
+      letter-spacing: 2px;
+      font-weight: bold;
+      & p{
+        margin-top: 15px;
+      }
+      &-thick{
+        font-weight: 100;
+        font-size: 1.8rem;
+      }
+    }
+  }
+}
+.slide2{
+  &__card{
+    width: 40rem;
+    height: 29rem;
+    background-image:linear-gradient(to left, #ec9e6e,#9f543d);
+    position: relative;
+    top: 100px;
+    border-radius: 25px;
+    &--img{
+      position: absolute;
+      top: -10rem;
+      left: 0rem;
+      width: 77%;
+    }
+    &--name{
+      position: absolute;
+      bottom: 6%;
+      left: 9%;
+      color: $characters-name;
+      font-size: 2rem;
+      font-family: 'Sniglet', sans-serif;
+      letter-spacing: 2px;
+      font-weight: bold;
+      & p{
+        margin-top: 15px;
+      }
+      &-thick{
+        font-weight: 100;
+        font-size: 1.8rem;
+      }
+    }
+  }
+}
+.slide3{
+  &__card{
+    width: 40rem;
+    height: 29rem;
+    background-image:linear-gradient(to left, #8190b1,#333541);
+    position: relative;
+    top: 100px;
+    border-radius: 25px;
+    &--img{
+      position: absolute;
+      top: -6rem;
+      left: 1rem;
+      width: 81%;
+    }
+    &--name{
+      position: absolute;
+      bottom: 6%;
+      left: 9%;
+      color: $characters-name;
+      font-size: 2rem;
+      font-family: 'Sniglet', sans-serif;
+      letter-spacing: 2px;
+      font-weight: bold;
+      & p{
+        margin-top: 15px;
+      }
+      &-thick{
+        font-weight: 100;
+        font-size: 1.8rem;
+      }
+    }
+  }
+}
