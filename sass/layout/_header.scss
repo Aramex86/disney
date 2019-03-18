@@ -1,0 +1,133 @@
+.header{
+  display: flex;
+  justify-content: space-evenly;
+
+  &__logo{
+    width: 33.3%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 5rem;
+    &--img{
+      margin-right: 10px;
+    }
+    &--text{
+      font-size: 2rem;
+      font-family: 'Sniglet', sans-serif;
+    }
+  }
+  &__search{
+    width: 33.3%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    &:hover i.fa-search{
+      color: $menu-icom-bg;
+      transition: all 0.5s;
+    }
+    &--field{
+      margin: 0 auto;
+      width: 60%;
+      height: 3rem;
+      border: 2px solid $menu-btn-icon;
+      border-radius: 11px;
+      outline: none;
+      padding:0 4rem;
+      color: $menu-btn-icon;
+      font-family: 'Sniglet', sans-serif;
+      &:focus{
+        padding:0 5rem;
+        color: $menu-btn-icon;
+        font-family: 'Sniglet', sans-serif;
+        transition: all 0.5s;
+        border: 2px solid $menu-icom-bg;
+      }
+      &::placeholder{
+        color: $menu-btn-icon;
+        font-weight: bold;
+        font-family: 'Sniglet', sans-serif;
+        letter-spacing: 2px;
+        }
+    }
+  }
+  &__menu {
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &--btn {
+      background: none;
+      border: none;
+      outline: none;
+      font-size: 2rem;
+      font-family: 'Sniglet', sans-serif;
+      font-weight: bold;
+      color: $menu-btn;
+      display: flex;
+      align-items: center;
+      &:hover .menu-iconwrap--1{
+        left: 0;
+        top: 0;
+        background-color: $menu-icom-bg;
+      }
+      &:hover .menu-iconwrap--2{
+        right: 0;
+        top: 0;
+        background-color: $menu-icom-bg;
+      }
+      &:hover .menu-iconwrap--3{
+        left: 0;
+        bottom: 0;
+        background-color: $menu-icom-bg;
+      }
+      &:hover .menu-iconwrap--4{
+        right: 0;
+        bottom: 0;
+        background-color: $menu-icom-bg;
+      }
+    }
+    .menu-iconwrap {
+      position: relative;
+      width: 1.5rem;
+      height: 1.5rem;
+      margin-left: 5px;
+      &--1 {
+        width: .6rem;
+        height: .6rem;
+        position: absolute;
+        left: 1px;
+        top: 1px;
+        background-color: $menu-btn-icon;
+        transition: all 0.5s;
+      }
+      &--2 {
+        width: .6rem;
+        height: .6rem;
+        position: absolute;
+        right: 1px;
+        top: 1px;
+        background-color: $menu-btn-icon;
+        transition: all 0.5s;
+      }
+      &--3 {
+        width: .6rem;
+        height: .6rem;
+        position: absolute;
+        left: 1px;
+        bottom: 1px;
+        background-color: $menu-btn-icon;
+        transition: all 0.5s;
+      }
+      &--4 {
+        width: .6rem;
+        height: .6rem;
+        position: absolute;
+        right: 1px;
+        bottom: 1px;
+        background-color: $menu-btn-icon;
+        transition: all 0.5s;
+      }
+    }
+  }
+}
