@@ -1,16 +1,112 @@
-.section__sliderwrap{
-  padding: 0 3rem;
-  padding-top: 5rem;
+.section__sliderwrap {
+  padding: 0 2rem;
+  position: relative;
+  cursor: pointer;
+  &--social {
+    position: absolute;
+    top: 97.5%;
+    left: 12%;
+    &-link {
+      text-decoration: none;
+      color: $menu-btn;
+      &:not(:first-child) {
+        padding: 0 1rem;
+      }
+      &:hover {
+        color: $menu-icom-bg;
+      }
+    }
+  }
 }
-.bx-wrapper{
+
+//slider
+.bx-wrapper {
   -moz-box-shadow: none !important;
-  -webkit-box-shadow: none!important;
-  box-shadow: none!important;
-  border: none!important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border: none !important;
   background: #fff;
-  max-width: 80%!important;
+  max-width: 80% !important;
   margin: 0 auto;
 }
-.bx-viewport{
-  height: 550px!important;
+
+.bx-viewport {
+  height: 550px !important;
+}
+
+.bx-wrapper .bx-next {
+  right: 2% !important;
+  background: none !important;
+  width: 5rem !important;
+  &:hover {
+    color: $menu-icom-bg;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    right: 14%;
+    top: 34%;
+    display: block;
+    width: 20%;
+    height: 5%;
+    background-color: black;
+    transform: rotate(-43deg);
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    right: 14%;
+    top: 16%;
+    display: block;
+    width: 20%;
+    height: 5%;
+    background-color: black;
+    transform: rotate(43deg);
+  }
+}
+
+.bx-wrapper .bx-prev {
+  left: 90% !important;
+  background: none !important;
+  width: 5rem !important;
+  &:hover {
+    color: $menu-icom-bg;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    left: -24%;
+    top: 34%;
+    display: block;
+    width: 20%;
+    height: 5%;
+    background-color: black;
+    transform: rotate(43deg);
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    left: -25%;
+    top: 16%;
+    display: block;
+    width: 20%;
+    height: 5%;
+    background-color: black;
+    transform: rotate(-43deg);
+  }
+}
+
+.bx-wrapper .bx-controls-direction a {
+  position: absolute;
+  top: 100% !important;
+  margin-top: -16px;
+  outline: 0;
+  width: 32px;
+  height: 32px;
+  text-indent: 0 !important;
+  z-index: 9999;
+  text-decoration: none;
+  color: black;
+  font-family: 'Sniglet', sans-serif;
+  font-weight: bold;
 }

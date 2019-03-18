@@ -66,6 +66,7 @@
       color: $menu-btn;
       display: flex;
       align-items: center;
+      cursor: pointer;
       &:hover .menu-iconwrap--1{
         left: 0;
         top: 0;

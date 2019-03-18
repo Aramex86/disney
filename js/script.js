@@ -3,7 +3,8 @@ $(document).ready(function () {
         pager:false,
         minSlides:3,
         moveSlides:3,
-        slideWidth:418
+        slideWidth:418,
+        keyboardEnabled:true
 
 
 

@@ -6,10 +6,19 @@
     position: relative;
     top: 200px;
     border-radius: 25px;
+
+    &:hover &--img{
+      transform: scale(1.1);
+      transition:all .5s ;
+    }
+    &:hover &--info{
+      opacity: 1;
+      transition: all 1s;
+    }
     &--img{
       position: absolute;
       top: -11rem;
-      left: -4rem;
+      left: -2rem;
     }
     &--name{
       position: absolute;
@@ -28,6 +37,18 @@
         font-size: 1.8rem;
       }
     }
+    &--info{
+      position: absolute;
+      right: 9%;
+      bottom: 6%;
+      opacity: 0;
+      &-link{
+        text-decoration: none;
+        color: $read-more-col;
+        font-size: 2rem;
+        letter-spacing: 2px;
+      }
+    }
   }
 }
 .slide2{
@@ -38,10 +59,18 @@
     position: relative;
     top: 200px;
     border-radius: 25px;
+    &:hover &--info{
+      opacity: 1;
+      transition: all 1s;
+    }
+    &:hover &--img{
+      transform: scale(1.1);
+      transition:all .5s ;
+    }
     &--img{
       position: absolute;
       top: -10rem;
-      left: 0rem;
+      left: 3rem;
       width: 77%;
     }
     &--name{
@@ -61,6 +90,18 @@
         font-size: 1.8rem;
       }
     }
+    &--info{
+      position: absolute;
+      right: 9%;
+      bottom: 6%;
+      opacity: 0;
+      &-link{
+        text-decoration: none;
+        color: $read-more-col;
+        font-size: 2rem;
+        letter-spacing: 2px;
+      }
+    }
   }
 }
 .slide3{
@@ -71,10 +112,18 @@
     position: relative;
     top: 200px;
     border-radius: 25px;
+    &:hover &--info{
+      opacity: 1;
+      transition: all 1s;
+    }
+    &:hover &--img{
+      transform: scale(1.1);
+      transition:all .5s ;
+    }
     &--img{
       position: absolute;
       top: -6rem;
-      left: 1rem;
+      left: 3rem;
       width: 81%;
     }
     &--name{
@@ -94,6 +143,18 @@
         font-size: 1.8rem;
       }
     }
+    &--info{
+      position: absolute;
+      right: 9%;
+      bottom: 6%;
+      opacity: 0;
+      &-link{
+        text-decoration: none;
+        color: $read-more-col;
+        font-size: 2rem;
+        letter-spacing: 2px;
+      }
+    }
   }
 }
 .slide4{
@@ -104,6 +165,14 @@
      position: relative;
      top: 200px;
      border-radius: 25px;
+      &:hover &--info{
+      opacity: 1;
+      transition: all 1s;
+    }
+     &:hover &--img{
+       transform: scale(1.1);
+       transition:all .5s ;
+     }
      &--img{
        position: absolute;
        top: -10rem;
@@ -127,6 +196,18 @@
          font-size: 1.8rem;
        }
      }
+     &--info{
+      position: absolute;
+      right: 9%;
+      bottom: 6%;
+      opacity: 0;
+      &-link{
+        text-decoration: none;
+        color: $read-more-col;
+        font-size: 2rem;
+        letter-spacing: 2px;
+      }
+    }
    }
  }
 .slide5{
@@ -137,6 +218,14 @@
     position: relative;
     top: 200px;
     border-radius: 25px;
+     &:hover &--info{
+      opacity: 1;
+      transition: all 1s;
+    }
+    &:hover &--img{
+      transform: scale(1.1);
+      transition:all .5s ;
+    }
     &--img{
       position: absolute;
       top: -20rem;
@@ -160,6 +249,18 @@
         font-size: 1.8rem;
       }
     }
+    &--info{
+      position: absolute;
+      right: 9%;
+      bottom: 6%;
+      opacity: 0;
+      &-link{
+        text-decoration: none;
+        color: $read-more-col;
+        font-size: 2rem;
+        letter-spacing: 2px;
+      }
+    }
   }
 }
 .slide6{
@@ -170,6 +271,14 @@
     position: relative;
     top: 200px;
     border-radius: 25px;
+     &:hover &--info{
+      opacity: 1;
+      transition: all 1s;
+    }
+    &:hover &--img{
+      transform: scale(1.1);
+      transition:all .5s ;
+    }
     &--img{
       position: absolute;
       top: -17rem;
@@ -191,6 +300,18 @@
       &-thick{
         font-weight: 100;
         font-size: 1.8rem;
+      }
+    }
+    &--info{
+      position: absolute;
+      right: 9%;
+      bottom: 6%;
+      opacity: 0;
+      &-link{
+        text-decoration: none;
+        color: $read-more-col;
+        font-size: 2rem;
+        letter-spacing: 2px;
       }
     }
   }
@@ -203,6 +324,14 @@
     position: relative;
     top: 200px;
     border-radius: 25px;
+     &:hover &--info{
+      opacity: 1;
+      transition: all 1s;
+    }
+    &:hover &--img{
+      transform: scale(1.1);
+      transition:all .5s ;
+    }
     &--img{
       position: absolute;
       top: -17rem;
@@ -226,16 +355,36 @@
         font-size: 1.8rem;
       }
     }
+    &--info{
+      position: absolute;
+      right: 9%;
+      bottom: 6%;
+      opacity: 0;
+      &-link{
+        text-decoration: none;
+        color: $read-more-col;
+        font-size: 2rem;
+        letter-spacing: 2px;
+      }
+    }
   }
 }
 .slide8{
   &__card{
     width: 40rem;
     height: 29rem;
-    background-image:linear-gradient(to left, #3b0b13,#e23827);
+    background-image:linear-gradient(to left,#e23827,#3b0b13);
     position: relative;
     top: 200px;
     border-radius: 25px;
+     &:hover &--info{
+      opacity: 1;
+      transition: all 1s;
+    }
+    &:hover &--img{
+      transform: scale(1.1);
+      transition:all .5s ;
+    }
     &--img{
       position: absolute;
       top: -11rem;
@@ -259,6 +408,18 @@
         font-size: 1.8rem;
       }
     }
+    &--info{
+      position: absolute;
+      right: 9%;
+      bottom: 6%;
+      opacity: 0;
+      &-link{
+        text-decoration: none;
+        color: $read-more-col;
+        font-size: 2rem;
+        letter-spacing: 2px;
+      }
+    }
   }
 }
 .slide9{
@@ -269,6 +430,14 @@
     position: relative;
     top: 200px;
     border-radius: 25px;
+     &:hover &--info{
+      opacity: 1;
+      transition: all 1s;
+    }
+    &:hover &--img{
+      transform: scale(1.1);
+      transition:all .5s ;
+    }
     &--img{
       position: absolute;
       top: -16rem;
@@ -292,6 +461,18 @@
         font-size: 1.8rem;
       }
     }
+    &--info{
+      position: absolute;
+      right: 9%;
+      bottom: 6%;
+      opacity: 0;
+      &-link{
+        text-decoration: none;
+        color: $read-more-col;
+        font-size: 2rem;
+        letter-spacing: 2px;
+      }
+    }
   }
 }
 .slide10{
@@ -302,6 +483,14 @@
     position: relative;
     top: 200px;
     border-radius: 25px;
+     &:hover &--info{
+      opacity: 1;
+      transition: all 1s;
+    }
+    &:hover &--img{
+      transform: scale(1.1);
+      transition:all .5s ;
+    }
     &--img{
       position: absolute;
       top: -14rem;
@@ -325,16 +514,36 @@
         font-size: 1.8rem;
       }
     }
+    &--info{
+      position: absolute;
+      right: 9%;
+      bottom: 6%;
+      opacity: 0;
+      &-link{
+        text-decoration: none;
+        color: $read-more-col;
+        font-size: 2rem;
+        letter-spacing: 2px;
+      }
+    }
   }
 }
 .slide11{
   &__card{
     width: 40rem;
     height: 29rem;
-    background-image:linear-gradient(to left, #432c05,#674f61);
+    background-image:linear-gradient(to left,#674f61,#432c05);
     position: relative;
     top: 200px;
     border-radius: 25px;
+     &:hover &--info{
+      opacity: 1;
+      transition: all 1s;
+    }
+    &:hover &--img{
+      transform: scale(1.1);
+      transition:all .5s ;
+    }
     &--img{
       position: absolute;
       top: -16rem;
@@ -358,6 +567,18 @@
         font-size: 1.8rem;
       }
     }
+    &--info{
+      position: absolute;
+      right: 9%;
+      bottom: 6%;
+      opacity: 0;
+      &-link{
+        text-decoration: none;
+        color: $read-more-col;
+        font-size: 2rem;
+        letter-spacing: 2px;
+      }
+    }
   }
 }
 .slide12{
@@ -368,6 +589,14 @@
     position: relative;
     top: 200px;
     border-radius: 25px;
+     &:hover &--info{
+      opacity: 1;
+      transition: all 1s;
+    }
+    &:hover &--img{
+      transform: scale(1.1);
+      transition:all .5s ;
+    }
     &--img{
       position: absolute;
       top: -17rem;
@@ -389,6 +618,336 @@
       &-thick{
         font-weight: 100;
         font-size: 1.8rem;
+      }
+    }
+    &--info{
+      position: absolute;
+      right: 9%;
+      bottom: 6%;
+      opacity: 0;
+      &-link{
+        text-decoration: none;
+        color: $read-more-col;
+        font-size: 2rem;
+        letter-spacing: 2px;
+      }
+    }
+  }
+}
+.slide13{
+  &__card{
+    width: 40rem;
+    height: 29rem;
+    background-image:linear-gradient(to left, #3e71a6,#d4ab77);
+    position: relative;
+    top: 200px;
+    border-radius: 25px;
+     &:hover &--info{
+      opacity: 1;
+      transition: all 1s;
+    }
+    &:hover &--img{
+      transform: scale(1.1);
+      transition:all .5s ;
+    }
+    &--img{
+      position: absolute;
+      top: -21rem;
+      left: 0%;
+      width: 90%;
+    }
+    &--name{
+      position: absolute;
+      bottom: 6%;
+      left: 9%;
+      color: $characters-name;
+      font-size: 2rem;
+      font-family: 'Sniglet', sans-serif;
+      letter-spacing: 2px;
+      font-weight: bold;
+      & p{
+        margin-top: 15px;
+      }
+      &-thick{
+        font-weight: 100;
+        font-size: 1.8rem;
+      }
+    }
+    &--info{
+      position: absolute;
+      right: 9%;
+      bottom: 6%;
+      opacity: 0;
+      &-link{
+        text-decoration: none;
+        color: $read-more-col;
+        font-size: 2rem;
+        letter-spacing: 2px;
+      }
+    }
+  }
+}
+.slide14{
+  &__card{
+    width: 40rem;
+    height: 29rem;
+    background-image:linear-gradient(to left, #688269,#9c9056);
+    position: relative;
+    top: 200px;
+    border-radius: 25px;
+     &:hover &--info{
+      opacity: 1;
+      transition: all 1s;
+    }
+    &:hover &--img{
+      transform: scale(1.1);
+      transition:all .5s ;
+    }
+    &--img{
+      position: absolute;
+      top: -8rem;
+      left: 5%;
+      width: 95%;
+    }
+    &--name{
+      position: absolute;
+      bottom: 6%;
+      left: 9%;
+      color: $characters-name;
+      font-size: 2rem;
+      font-family: 'Sniglet', sans-serif;
+      letter-spacing: 2px;
+      font-weight: bold;
+      & p{
+        margin-top: 15px;
+      }
+      &-thick{
+        font-weight: 100;
+        font-size: 1.8rem;
+      }
+    }
+    &--info{
+      position: absolute;
+      right: 9%;
+      bottom: 6%;
+      opacity: 0;
+      &-link{
+        text-decoration: none;
+        color: $read-more-col;
+        font-size: 2rem;
+        letter-spacing: 2px;
+      }
+    }
+  }
+}
+.slide15{
+  &__card{
+    width: 40rem;
+    height: 29rem;
+    background-image:linear-gradient(to left, #84834a,#936f5f);
+    position: relative;
+    top: 200px;
+    border-radius: 25px;
+     &:hover &--info{
+      opacity: 1;
+      transition: all 1s;
+    }
+    &:hover &--img{
+      transform: scale(1.1);
+      transition:all .5s ;
+    }
+    &--img{
+      position: absolute;
+      top: -17rem;
+      left: 12%;
+      width: 67%;
+    }
+    &--name{
+      position: absolute;
+      bottom: 6%;
+      left: 9%;
+      color: $characters-name;
+      font-size: 2rem;
+      font-family: 'Sniglet', sans-serif;
+      letter-spacing: 2px;
+      font-weight: bold;
+      & p{
+        margin-top: 15px;
+      }
+      &-thick{
+        font-weight: 100;
+        font-size: 1.8rem;
+      }
+    }
+    &--info{
+      position: absolute;
+      right: 9%;
+      bottom: 6%;
+      opacity: 0;
+      &-link{
+        text-decoration: none;
+        color: $read-more-col;
+        font-size: 2rem;
+        letter-spacing: 2px;
+      }
+    }
+  }
+}
+.slide16{
+  &__card{
+    width: 40rem;
+    height: 29rem;
+    background-image:linear-gradient(to left, #64406e,#80548f);
+    position: relative;
+    top: 200px;
+    border-radius: 25px;
+     &:hover &--info{
+      opacity: 1;
+      transition: all 1s;
+    }
+    &:hover &--img{
+      transform: scale(1.1);
+      transition:all .5s ;
+    }
+    &--img{
+      position: absolute;
+      top: -17rem;
+      left: 16%;
+      width: 62%;
+    }
+    &--name{
+      position: absolute;
+      bottom: 6%;
+      left: 9%;
+      color: $characters-name;
+      font-size: 2rem;
+      font-family: 'Sniglet', sans-serif;
+      letter-spacing: 2px;
+      font-weight: bold;
+      & p{
+        margin-top: 15px;
+      }
+      &-thick{
+        font-weight: 100;
+        font-size: 1.8rem;
+      }
+    }
+    &--info{
+      position: absolute;
+      right: 9%;
+      bottom: 6%;
+      opacity: 0;
+      &-link{
+        text-decoration: none;
+        color: $read-more-col;
+        font-size: 2rem;
+        letter-spacing: 2px;
+      }
+    }
+  }
+}
+.slide17{
+  &__card{
+    width: 40rem;
+    height: 29rem;
+    background-image:linear-gradient(to left, #c3d2bb,#6da538);
+    position: relative;
+    top: 200px;
+    border-radius: 25px;
+     &:hover &--info{
+      opacity: 1;
+      transition: all 1s;
+    }
+    &:hover &--img{
+      transform: scale(1.1);
+      transition:all .5s ;
+    }
+    &--img{
+      position: absolute;
+      top: -15rem;
+      left: 7%;
+      width: 82%;
+    }
+    &--name{
+      position: absolute;
+      bottom: 6%;
+      left: 9%;
+      color: $characters-name;
+      font-size: 2rem;
+      font-family: 'Sniglet', sans-serif;
+      letter-spacing: 2px;
+      font-weight: bold;
+      & p{
+        margin-top: 15px;
+      }
+      &-thick{
+        font-weight: 100;
+        font-size: 1.8rem;
+      }
+    }
+    &--info{
+      position: absolute;
+      right: 9%;
+      bottom: 6%;
+      opacity: 0;
+      &-link{
+        text-decoration: none;
+        color: $read-more-col;
+        font-size: 2rem;
+        letter-spacing: 2px;
+      }
+    }
+  }
+}
+.slide18{
+  &__card{
+    width: 40rem;
+    height: 29rem;
+    background-image:linear-gradient(to left, #64406e,#80548f);
+    position: relative;
+    top: 200px;
+    border-radius: 25px;
+     &:hover &--info{
+      opacity: 1;
+      transition: all 1s;
+    }
+    &:hover &--img{
+      transform: scale(1.1);
+      transition:all .5s ;
+    }
+    &--img{
+      position: absolute;
+      top: -15rem;
+      left: 13%;
+      width: 66%;
+    }
+    &--name{
+      position: absolute;
+      bottom: 6%;
+      left: 9%;
+      color: $characters-name;
+      font-size: 2rem;
+      font-family: 'Sniglet', sans-serif;
+      letter-spacing: 2px;
+      font-weight: bold;
+      & p{
+        margin-top: 15px;
+      }
+      &-thick{
+        font-weight: 100;
+        font-size: 1.8rem;
+      }
+    }
+    &--info{
+      position: absolute;
+      right: 9%;
+      bottom: 6%;
+      opacity: 0;
+      &-link{
+        text-decoration: none;
+        color: $read-more-col;
+        font-size: 2rem;
+        letter-spacing: 2px;
       }
     }
   }
