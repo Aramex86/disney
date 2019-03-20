@@ -67,6 +67,9 @@
       display: flex;
       align-items: center;
       cursor: pointer;
+      &:hover{
+        color: $menu-icom-bg;
+      }
       &:hover .menu-iconwrap--1{
         left: 0;
         top: 0;

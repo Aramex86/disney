@@ -1,12 +1,16 @@
 .slide1{
   &__card{
-    width: 40rem;
+    width: 35rem;
     height: 29rem;
     background-image:linear-gradient(to left, #ed6768,#e54138);
     position: relative;
     top: 200px;
     border-radius: 25px;
-
+    &:hover{
+      box-shadow: 2px 1px 11px 2px #646da4;
+      top: 180px;
+      transition: all .5s;
+    }
     &:hover &--img{
       transform: scale(1.1);
       transition:all .5s ;
@@ -53,12 +57,17 @@
 }
 .slide2{
   &__card{
-    width: 40rem;
+    width: 35rem;
     height: 29rem;
     background-image:linear-gradient(to left, #ec9e6e,#9f543d);
     position: relative;
     top: 200px;
     border-radius: 25px;
+    &:hover{
+      box-shadow: 2px 1px 11px 2px #646da4;
+      top: 180px;
+      transition: all .5s;
+    }
     &:hover &--info{
       opacity: 1;
       transition: all 1s;
@@ -106,12 +115,17 @@
 }
 .slide3{
   &__card{
-    width: 40rem;
+    width: 35rem;
     height: 29rem;
     background-image:linear-gradient(to left, #8190b1,#333541);
     position: relative;
     top: 200px;
     border-radius: 25px;
+    &:hover{
+      box-shadow: 2px 1px 11px 2px #646da4;
+      top: 180px;
+      transition: all .5s;
+    }
     &:hover &--info{
       opacity: 1;
       transition: all 1s;
@@ -159,12 +173,17 @@
 }
 .slide4{
    &__card{
-     width: 40rem;
+     width: 35rem;
      height: 29rem;
      background-image:linear-gradient(to left, #e5614c,#c44031);
      position: relative;
      top: 200px;
      border-radius: 25px;
+     &:hover{
+       box-shadow: 2px 1px 11px 2px #646da4;
+       top: 180px;
+       transition: all .5s;
+     }
       &:hover &--info{
       opacity: 1;
       transition: all 1s;
@@ -212,12 +231,17 @@
  }
 .slide5{
   &__card{
-    width: 40rem;
+    width: 35rem;
     height: 29rem;
     background-image:linear-gradient(to left, #e5614c,#c44031);
     position: relative;
     top: 200px;
     border-radius: 25px;
+    &:hover{
+      box-shadow: 2px 1px 11px 2px #646da4;
+      top: 180px;
+      transition: all .5s;
+    }
      &:hover &--info{
       opacity: 1;
       transition: all 1s;
@@ -265,12 +289,17 @@
 }
 .slide6{
   &__card{
-    width: 40rem;
+    width: 35rem;
     height: 29rem;
     background-image:linear-gradient(to left, #e8973e,#3f6083);
     position: relative;
     top: 200px;
     border-radius: 25px;
+    &:hover{
+      box-shadow: 2px 1px 11px 2px #646da4;
+      top: 180px;
+      transition: all .5s;
+    }
      &:hover &--info{
       opacity: 1;
       transition: all 1s;
@@ -318,12 +347,17 @@
 }
 .slide7{
   &__card{
-    width: 40rem;
+    width: 35rem;
     height: 29rem;
     background-image:linear-gradient(to left, #80b2e0,#004285);
     position: relative;
     top: 200px;
     border-radius: 25px;
+    &:hover{
+      box-shadow: 2px 1px 11px 2px #646da4;
+      top: 180px;
+      transition: all .5s;
+    }
      &:hover &--info{
       opacity: 1;
       transition: all 1s;
@@ -371,12 +405,17 @@
 }
 .slide8{
   &__card{
-    width: 40rem;
+    width: 35rem;
     height: 29rem;
     background-image:linear-gradient(to left,#e23827,#3b0b13);
     position: relative;
     top: 200px;
     border-radius: 25px;
+    &:hover{
+      box-shadow: 2px 1px 11px 2px #646da4;
+      top: 180px;
+      transition: all .5s;
+    }
      &:hover &--info{
       opacity: 1;
       transition: all 1s;
@@ -424,12 +463,17 @@
 }
 .slide9{
   &__card{
-    width: 40rem;
+    width: 35rem;
     height: 29rem;
     background-image:linear-gradient(to left, #9bcebd,#6da18b);
     position: relative;
     top: 200px;
     border-radius: 25px;
+    &:hover{
+      box-shadow: 2px 1px 11px 2px #646da4;
+      top: 180px;
+      transition: all .5s;
+    }
      &:hover &--info{
       opacity: 1;
       transition: all 1s;
@@ -477,12 +521,17 @@
 }
 .slide10{
   &__card{
-    width: 40rem;
+    width: 35rem;
     height: 29rem;
     background-image:linear-gradient(to left, #a22a29,#5e707e);
     position: relative;
     top: 200px;
     border-radius: 25px;
+    &:hover{
+      box-shadow: 2px 1px 11px 2px #646da4;
+      top: 180px;
+      transition: all .5s;
+    }
      &:hover &--info{
       opacity: 1;
       transition: all 1s;
@@ -530,12 +579,17 @@
 }
 .slide11{
   &__card{
-    width: 40rem;
+    width: 35rem;
     height: 29rem;
     background-image:linear-gradient(to left,#674f61,#432c05);
     position: relative;
     top: 200px;
     border-radius: 25px;
+    &:hover{
+      box-shadow: 2px 1px 11px 2px #646da4;
+      top: 180px;
+      transition: all .5s;
+    }
      &:hover &--info{
       opacity: 1;
       transition: all 1s;
@@ -583,12 +637,17 @@
 }
 .slide12{
   &__card{
-    width: 40rem;
+    width: 35rem;
     height: 29rem;
     background-image:linear-gradient(to left, #64406e,#80548f);
     position: relative;
     top: 200px;
     border-radius: 25px;
+    &:hover{
+      box-shadow: 2px 1px 11px 2px #646da4;
+      top: 180px;
+      transition: all .5s;
+    }
      &:hover &--info{
       opacity: 1;
       transition: all 1s;
@@ -636,12 +695,17 @@
 }
 .slide13{
   &__card{
-    width: 40rem;
+    width: 35rem;
     height: 29rem;
     background-image:linear-gradient(to left, #3e71a6,#d4ab77);
     position: relative;
     top: 200px;
     border-radius: 25px;
+    &:hover{
+      box-shadow: 2px 1px 11px 2px #646da4;
+      top: 180px;
+      transition: all .5s;
+    }
      &:hover &--info{
       opacity: 1;
       transition: all 1s;
@@ -689,12 +753,17 @@
 }
 .slide14{
   &__card{
-    width: 40rem;
+    width: 35rem;
     height: 29rem;
     background-image:linear-gradient(to left, #688269,#9c9056);
     position: relative;
     top: 200px;
     border-radius: 25px;
+    &:hover{
+      box-shadow: 2px 1px 11px 2px #646da4;
+      top: 180px;
+      transition: all .5s;
+    }
      &:hover &--info{
       opacity: 1;
       transition: all 1s;
@@ -742,12 +811,17 @@
 }
 .slide15{
   &__card{
-    width: 40rem;
+    width: 35rem;
     height: 29rem;
     background-image:linear-gradient(to left, #84834a,#936f5f);
     position: relative;
     top: 200px;
     border-radius: 25px;
+    &:hover{
+      box-shadow: 2px 1px 11px 2px #646da4;
+      top: 180px;
+      transition: all .5s;
+    }
      &:hover &--info{
       opacity: 1;
       transition: all 1s;
@@ -795,12 +869,17 @@
 }
 .slide16{
   &__card{
-    width: 40rem;
+    width: 35rem;
     height: 29rem;
     background-image:linear-gradient(to left, #64406e,#80548f);
     position: relative;
     top: 200px;
     border-radius: 25px;
+    &:hover{
+      box-shadow: 2px 1px 11px 2px #646da4;
+      top: 180px;
+      transition: all .5s;
+    }
      &:hover &--info{
       opacity: 1;
       transition: all 1s;
@@ -848,12 +927,17 @@
 }
 .slide17{
   &__card{
-    width: 40rem;
+    width: 35rem;
     height: 29rem;
     background-image:linear-gradient(to left, #c3d2bb,#6da538);
     position: relative;
     top: 200px;
     border-radius: 25px;
+    &:hover{
+      box-shadow: 2px 1px 11px 2px #646da4;
+      top: 180px;
+      transition: all .5s;
+    }
      &:hover &--info{
       opacity: 1;
       transition: all 1s;
@@ -901,12 +985,17 @@
 }
 .slide18{
   &__card{
-    width: 40rem;
+    width: 35rem;
     height: 29rem;
     background-image:linear-gradient(to left, #64406e,#80548f);
     position: relative;
     top: 200px;
     border-radius: 25px;
+    &:hover{
+      box-shadow: 2px 1px 11px 2px #646da4;
+      top: 180px;
+      transition: all .5s;
+    }
      &:hover &--info{
       opacity: 1;
       transition: all 1s;
