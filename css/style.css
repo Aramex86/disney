@@ -238,6 +238,65 @@
       width: 100%;
       height: 100%; }
 
+.big__cardwrap--5 {
+  width: 70%;
+  background-image: linear-gradient(to left, #e5614c, #c44031);
+  position: relative;
+  border-radius: 19px;
+  left: 0%;
+  height: 77vh;
+  margin-top: 13rem;
+  display: none; }
+  .big__cardwrap--5-btn {
+    position: absolute;
+    right: 64px;
+    top: -5rem;
+    font-size: 1.8rem;
+    font-family: 'Sniglet', sans-serif;
+    cursor: pointer; }
+  .big__cardwrap--5-card {
+    position: relative; }
+  .big__cardwrap--5-img {
+    width: 37%;
+    position: absolute;
+    top: -12rem;
+    left: 7%; }
+  .big__cardwrap--5-name {
+    position: absolute;
+    right: 26%;
+    top: 2rem;
+    color: #fff;
+    font-size: 3rem; }
+  .big__cardwrap--5-info {
+    width: 50%;
+    position: absolute;
+    left: 55rem;
+    top: 13rem;
+    color: #fff;
+    font-size: 1.8rem;
+    line-height: 2.8rem; }
+  .big__cardwrap--5 strong {
+    position: absolute;
+    bottom: -50rem;
+    left: 12rem;
+    color: #fff;
+    font-size: 3rem; }
+  .big__cardwrap--5-clipswrap {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -66%);
+    width: 55%;
+    height: 20%;
+    display: flex;
+    justify-content: space-evenly; }
+    .big__cardwrap--5-clipswrap-clipswrap1 {
+      width: 30%;
+      height: auto; }
+    .big__cardwrap--5-clipswrap iframe {
+      width: 100%;
+      height: 100%; }
+
 .slide1__card {
   width: 35rem;
   height: 29rem;

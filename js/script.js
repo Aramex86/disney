@@ -43,6 +43,15 @@ $(document).ready(function () {
             $('.section__sliderwrap').fadeIn();
         });
     });
+    $('.slide5__card--info-link').on('click',function () {
+        $('.big__cardwrap--5').fadeIn(500).toggleClass("bla");
+
+        $('.section__sliderwrap').fadeOut();
+        $('.big__cardwrap--5-btn').click(function () {
+            $('.big__cardwrap--5').fadeOut().removeClass("bla");
+            $('.section__sliderwrap').fadeIn();
+        });
+    });
 
 
 });
