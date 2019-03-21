@@ -1,0 +1,76 @@
+{
+  "characters": [
+    {
+      "name":"mcqueen",
+      "movie":"cars"
+    },
+    {
+      "name":"mater",
+      "movie":"cars"
+    },
+    {
+      "name":"storm",
+      "movie":"cars"
+    },
+    {
+      "name":"miguel",
+      "movie":"coco"
+    },
+    {
+      "name":"hector",
+      "movie":"coco"
+    },
+    {
+      "name":"imelda",
+      "movie":"coco"
+    },
+    {
+      "name":"moana",
+      "movie":"moana"
+    },
+    {
+      "name":"heihei",
+      "movie":"moana"
+    },
+    {
+      "name":"maui",
+      "movie":"moana"
+    },
+    {
+      "name":"ralph",
+      "movie":"ralph"
+    },
+    {
+      "name":"master felix",
+      "movie":"ralph"
+    },
+    {
+      "name":"vanellope",
+      "movie":"ralph"
+    },
+    {
+      "name":"sherif woody",
+      "movie":"toy story"
+    },
+    {
+      "name":"rex",
+      "movie":"toy story"
+    },
+    {
+      "name":"buzz lightyear",
+      "movie":"toy story"
+    },
+    {
+      "name":"judy hoop",
+      "movie":"zootopia"
+    },
+    {
+      "name":"nick wilde",
+      "movie":"zootopia"
+    },
+    {
+      "name":"sloth",
+      "movie":"zootopia"
+    }
+  ]
+}

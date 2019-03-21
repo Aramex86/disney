@@ -29,11 +29,11 @@
       width: 50%;
       position: absolute;
       top: -10rem;
-      left: -5%;
+      left: -9%;
     }
     &-name {
       position: absolute;
-      right: 26%;
+      right: 36%;
       top: 2rem;
       color: $characters-name;
       font-size: 3rem;
@@ -41,7 +41,7 @@
     &-info{
       width: 50%;
       position: absolute;
-      left: 55rem;
+      left: 47rem;
       top: 13rem;
       color: $characters-name;
       font-size: 1.8rem;
@@ -102,7 +102,7 @@
     }
     &-name {
       position: absolute;
-      right: 26%;
+      right: 36%;
       top: 2rem;
       color: $characters-name;
       font-size: 3rem;
@@ -171,7 +171,7 @@
     }
     &-name {
       position: absolute;
-      right: 26%;
+      right: 36%;
       top: 2rem;
       color: $characters-name;
       font-size: 3rem;
@@ -241,7 +241,7 @@
     }
     &-name {
       position: absolute;
-      right: 26%;
+      right: 37%;
       top: 2rem;
       color: $characters-name;
       font-size: 3rem;
@@ -310,7 +310,7 @@
     }
     &-name {
       position: absolute;
-      right: 26%;
+      right: 37%;
       top: 2rem;
       color: $characters-name;
       font-size: 3rem;
@@ -350,5 +350,905 @@
       }
     }
   }
-
+  &--6 {
+    width: 70%;
+    background-image:linear-gradient(to left, #e5614c,#c44031);
+    position: relative;
+    //top: 200px;
+    border-radius: 19px;
+    left: 0%;
+    height: 77vh;
+    margin-top: 13rem;
+    display: none;
+    &-btn{
+      position: absolute;
+      right: 64px;
+      top: -5rem;
+      font-size: 1.8rem;
+      font-family: 'Sniglet', sans-serif;
+      cursor: pointer;
+    }
+    &-card {
+      position: relative;
+    }
+    &-img {
+      width: 30%;
+      position: absolute;
+      top: -12rem;
+      left: 7%;
+    }
+    &-name {
+      position: absolute;
+      right: 37%;
+      top: 2rem;
+      color: $characters-name;
+      font-size: 3rem;
+    }
+    &-info{
+      width: 50%;
+      position: absolute;
+      left: 55rem;
+      top: 13rem;
+      color: $characters-name;
+      font-size: 1.8rem;
+      line-height: 2.8rem;
+    }
+    & strong{
+      position: absolute;
+      bottom: -50rem;
+      left: 12rem;
+      color: $characters-name;
+      font-size: 3rem;
+    }
+    &-clipswrap{
+      position: absolute;
+      top: 90%;
+      left: 50%;
+      transform: translate(-50%,-66%);
+      width: 55%;
+      height: 20%;
+      display: flex;
+      justify-content: space-evenly;
+      &-clipswrap1{
+        width: 30%;
+        height: auto;
+      }
+      & iframe{
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  //ralph
+  &--7 {
+    width: 70%;
+    background-image:linear-gradient(to left, #80b2e0,#004285);
+    position: relative;
+    //top: 200px;
+    border-radius: 19px;
+    left: 0%;
+    height: 77vh;
+    margin-top: 13rem;
+    display: none;
+    &-btn{
+      position: absolute;
+      right: 64px;
+      top: -5rem;
+      font-size: 1.8rem;
+      font-family: 'Sniglet', sans-serif;
+      cursor: pointer;
+    }
+    &-card {
+      position: relative;
+    }
+    &-img {
+      width: 30%;
+      position: absolute;
+      top: -12rem;
+      left: 7%;
+    }
+    &-name {
+      position: absolute;
+      right: 37%;
+      top: 2rem;
+      color: $characters-name;
+      font-size: 3rem;
+    }
+    &-info{
+      width: 50%;
+      position: absolute;
+      left: 55rem;
+      top: 13rem;
+      color: $characters-name;
+      font-size: 1.8rem;
+      line-height: 2.8rem;
+    }
+    & strong{
+      position: absolute;
+      bottom: -50rem;
+      left: 12rem;
+      color: $characters-name;
+      font-size: 3rem;
+    }
+    &-clipswrap{
+      position: absolute;
+      top: 90%;
+      left: 50%;
+      transform: translate(-50%,-66%);
+      width: 55%;
+      height: 20%;
+      display: flex;
+      justify-content: space-evenly;
+      &-clipswrap1{
+        width: 30%;
+        height: auto;
+      }
+      & iframe{
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  &--8 {
+    width: 70%;
+    background-image:linear-gradient(to left,#e23827,#3b0b13);
+    position: relative;
+    //top: 200px;
+    border-radius: 19px;
+    left: 0%;
+    height: 77vh;
+    margin-top: 13rem;
+    display: none;
+    &-btn{
+      position: absolute;
+      right: 64px;
+      top: -5rem;
+      font-size: 1.8rem;
+      font-family: 'Sniglet', sans-serif;
+      cursor: pointer;
+    }
+    &-card {
+      position: relative;
+    }
+    &-img {
+      width: 48%;
+      position: absolute;
+      top: -12rem;
+      left: 0;
+    }
+    &-name {
+      position: absolute;
+      right: 37%;
+      top: 2rem;
+      color: $characters-name;
+      font-size: 3rem;
+    }
+    &-info{
+      width: 50%;
+      position: absolute;
+      left: 55rem;
+      top: 13rem;
+      color: $characters-name;
+      font-size: 1.8rem;
+      line-height: 2.8rem;
+    }
+    & strong{
+      position: absolute;
+      bottom: -50rem;
+      left: 12rem;
+      color: $characters-name;
+      font-size: 3rem;
+    }
+    &-clipswrap{
+      position: absolute;
+      top: 90%;
+      left: 50%;
+      transform: translate(-50%,-66%);
+      width: 55%;
+      height: 20%;
+      display: flex;
+      justify-content: space-evenly;
+      &-clipswrap1{
+        width: 30%;
+        height: auto;
+      }
+      & iframe{
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  &--9 {
+    width: 70%;
+    background-image:linear-gradient(to left, #9bcebd,#6da18b);
+    position: relative;
+    //top: 200px;
+    border-radius: 19px;
+    left: 0%;
+    height: 77vh;
+    margin-top: 13rem;
+    display: none;
+    &-btn{
+      position: absolute;
+      right: 64px;
+      top: -5rem;
+      font-size: 1.8rem;
+      font-family: 'Sniglet', sans-serif;
+      cursor: pointer;
+    }
+    &-card {
+      position: relative;
+    }
+    &-img {
+      width: 30%;
+      position: absolute;
+      top: -12rem;
+      left: 7%;
+    }
+    &-name {
+      position: absolute;
+      right: 37%;
+      top: 2rem;
+      color: $characters-name;
+      font-size: 3rem;
+    }
+    &-info{
+      width: 50%;
+      position: absolute;
+      left: 55rem;
+      top: 13rem;
+      color: $characters-name;
+      font-size: 1.8rem;
+      line-height: 2.8rem;
+    }
+    & strong{
+      position: absolute;
+      bottom: -50rem;
+      left: 12rem;
+      color: $characters-name;
+      font-size: 3rem;
+    }
+    &-clipswrap{
+      position: absolute;
+      top: 90%;
+      left: 50%;
+      transform: translate(-50%,-66%);
+      width: 55%;
+      height: 20%;
+      display: flex;
+      justify-content: space-evenly;
+      &-clipswrap1{
+        width: 30%;
+        height: auto;
+      }
+      & iframe{
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+//coco
+  &--10 {
+    width: 70%;
+    background-image:linear-gradient(to left, #a22a29,#5e707e);
+    position: relative;
+    //top: 200px;
+    border-radius: 19px;
+    left: 0%;
+    height: 77vh;
+    margin-top: 13rem;
+    display: none;
+    &-btn{
+      position: absolute;
+      right: 64px;
+      top: -5rem;
+      font-size: 1.8rem;
+      font-family: 'Sniglet', sans-serif;
+      cursor: pointer;
+    }
+    &-card {
+      position: relative;
+    }
+    &-img {
+      width: 30%;
+      position: absolute;
+      top: -12rem;
+      left: 7%;
+    }
+    &-name {
+      position: absolute;
+      right: 37%;
+      top: 2rem;
+      color: $characters-name;
+      font-size: 3rem;
+    }
+    &-info{
+      width: 50%;
+      position: absolute;
+      left: 55rem;
+      top: 13rem;
+      color: $characters-name;
+      font-size: 1.8rem;
+      line-height: 2.8rem;
+    }
+    & strong{
+      position: absolute;
+      bottom: -50rem;
+      left: 12rem;
+      color: $characters-name;
+      font-size: 3rem;
+    }
+    &-clipswrap{
+      position: absolute;
+      top: 90%;
+      left: 50%;
+      transform: translate(-50%,-66%);
+      width: 55%;
+      height: 20%;
+      display: flex;
+      justify-content: space-evenly;
+      &-clipswrap1{
+        width: 30%;
+        height: auto;
+      }
+      & iframe{
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  &--11 {
+    width: 70%;
+    background-image:linear-gradient(to left,#674f61,#432c05);
+    position: relative;
+    //top: 200px;
+    border-radius: 19px;
+    left: 0%;
+    height: 77vh;
+    margin-top: 13rem;
+    display: none;
+    &-btn{
+      position: absolute;
+      right: 64px;
+      top: -5rem;
+      font-size: 1.8rem;
+      font-family: 'Sniglet', sans-serif;
+      cursor: pointer;
+    }
+    &-card {
+      position: relative;
+    }
+    &-img {
+      width: 30%;
+      position: absolute;
+      top: -12rem;
+      left: 0;
+    }
+    &-name {
+      position: absolute;
+      right: 37%;
+      top: 2rem;
+      color: $characters-name;
+      font-size: 3rem;
+    }
+    &-info{
+      width: 50%;
+      position: absolute;
+      left: 55rem;
+      top: 13rem;
+      color: $characters-name;
+      font-size: 1.8rem;
+      line-height: 2.8rem;
+    }
+    & strong{
+      position: absolute;
+      bottom: -50rem;
+      left: 12rem;
+      color: $characters-name;
+      font-size: 3rem;
+    }
+    &-clipswrap{
+      position: absolute;
+      top: 90%;
+      left: 50%;
+      transform: translate(-50%,-66%);
+      width: 55%;
+      height: 20%;
+      display: flex;
+      justify-content: space-evenly;
+      &-clipswrap1{
+        width: 30%;
+        height: auto;
+      }
+      & iframe{
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  &--12 {
+    width: 70%;
+    background-image:linear-gradient(to left, #64406e,#80548f);
+    position: relative;
+    //top: 200px;
+    border-radius: 19px;
+    left: 0%;
+    height: 77vh;
+    margin-top: 13rem;
+    display: none;
+    &-btn{
+      position: absolute;
+      right: 64px;
+      top: -5rem;
+      font-size: 1.8rem;
+      font-family: 'Sniglet', sans-serif;
+      cursor: pointer;
+    }
+    &-card {
+      position: relative;
+    }
+    &-img {
+      width: 25%;
+      position: absolute;
+      top: -12rem;
+      left: 7%;
+    }
+    &-name {
+      position: absolute;
+      right: 37%;
+      top: 2rem;
+      color: $characters-name;
+      font-size: 3rem;
+    }
+    &-info{
+      width: 50%;
+      position: absolute;
+      left: 55rem;
+      top: 13rem;
+      color: $characters-name;
+      font-size: 1.8rem;
+      line-height: 2.8rem;
+    }
+    & strong{
+      position: absolute;
+      bottom: -50rem;
+      left: 12rem;
+      color: $characters-name;
+      font-size: 3rem;
+    }
+    &-clipswrap{
+      position: absolute;
+      top: 90%;
+      left: 50%;
+      transform: translate(-50%,-66%);
+      width: 55%;
+      height: 20%;
+      display: flex;
+      justify-content: space-evenly;
+      &-clipswrap1{
+        width: 30%;
+        height: auto;
+      }
+      & iframe{
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+//zootopia
+  &--13 {
+    width: 70%;
+    background-image:linear-gradient(to left, #3e71a6,#d4ab77);
+    position: relative;
+    //top: 200px;
+    border-radius: 19px;
+    left: 0%;
+    height: 77vh;
+    margin-top: 13rem;
+    display: none;
+    &-btn{
+      position: absolute;
+      right: 64px;
+      top: -5rem;
+      font-size: 1.8rem;
+      font-family: 'Sniglet', sans-serif;
+      cursor: pointer;
+    }
+    &-card {
+      position: relative;
+    }
+    &-img {
+      width: 48%;
+      position: absolute;
+      top: -20rem;
+      left: 2%;
+    }
+    &-name {
+      position: absolute;
+      right: 37%;
+      top: 2rem;
+      color: $characters-name;
+      font-size: 3rem;
+    }
+    &-info{
+      width: 50%;
+      position: absolute;
+      left: 55rem;
+      top: 13rem;
+      color: $characters-name;
+      font-size: 1.8rem;
+      line-height: 2.8rem;
+    }
+    & strong{
+      position: absolute;
+      bottom: -50rem;
+      left: 12rem;
+      color: $characters-name;
+      font-size: 3rem;
+    }
+    &-clipswrap{
+      position: absolute;
+      top: 90%;
+      left: 50%;
+      transform: translate(-50%,-66%);
+      width: 55%;
+      height: 20%;
+      display: flex;
+      justify-content: space-evenly;
+      &-clipswrap1{
+        width: 30%;
+        height: auto;
+      }
+      & iframe{
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  &--14 {
+    width: 70%;
+    background-image:linear-gradient(to left, #688269,#9c9056);
+    position: relative;
+    //top: 200px;
+    border-radius: 19px;
+    left: 0%;
+    height: 77vh;
+    margin-top: 13rem;
+    display: none;
+    &-btn{
+      position: absolute;
+      right: 64px;
+      top: -5rem;
+      font-size: 1.8rem;
+      font-family: 'Sniglet', sans-serif;
+      cursor: pointer;
+    }
+    &-card {
+      position: relative;
+    }
+    &-img {
+      width: 50%;
+      position: absolute;
+      top: -12rem;
+      left: 5%;
+    }
+    &-name {
+      position: absolute;
+      right: 37%;
+      top: 2rem;
+      color: $characters-name;
+      font-size: 3rem;
+    }
+    &-info{
+      width: 50%;
+      position: absolute;
+      left: 55rem;
+      top: 13rem;
+      color: $characters-name;
+      font-size: 1.8rem;
+      line-height: 2.8rem;
+    }
+    & strong{
+      position: absolute;
+      bottom: -50rem;
+      left: 12rem;
+      color: $characters-name;
+      font-size: 3rem;
+    }
+    &-clipswrap{
+      position: absolute;
+      top: 90%;
+      left: 50%;
+      transform: translate(-50%,-66%);
+      width: 55%;
+      height: 20%;
+      display: flex;
+      justify-content: space-evenly;
+      &-clipswrap1{
+        width: 30%;
+        height: auto;
+      }
+      & iframe{
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  &--15 {
+    width: 70%;
+    background-image:linear-gradient(to left, #84834a,#936f5f);
+    position: relative;
+    //top: 200px;
+    border-radius: 19px;
+    left: 0%;
+    height: 77vh;
+    margin-top: 13rem;
+    display: none;
+    &-btn{
+      position: absolute;
+      right: 64px;
+      top: -5rem;
+      font-size: 1.8rem;
+      font-family: 'Sniglet', sans-serif;
+      cursor: pointer;
+    }
+    &-card {
+      position: relative;
+    }
+    &-img {
+      width: 35%;
+      position: absolute;
+      top: -12rem;
+      left: 7%;
+    }
+    &-name {
+      position: absolute;
+      right: 37%;
+      top: 2rem;
+      color: $characters-name;
+      font-size: 3rem;
+    }
+    &-info{
+      width: 50%;
+      position: absolute;
+      left: 55rem;
+      top: 13rem;
+      color: $characters-name;
+      font-size: 1.8rem;
+      line-height: 2.8rem;
+    }
+    & strong{
+      position: absolute;
+      bottom: -50rem;
+      left: 12rem;
+      color: $characters-name;
+      font-size: 3rem;
+    }
+    &-clipswrap{
+      position: absolute;
+      top: 90%;
+      left: 50%;
+      transform: translate(-50%,-66%);
+      width: 55%;
+      height: 20%;
+      display: flex;
+      justify-content: space-evenly;
+      &-clipswrap1{
+        width: 30%;
+        height: auto;
+      }
+      & iframe{
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  //toy story
+  &--16 {
+    width: 70%;
+    background-image:linear-gradient(to left, #64406e,#80548f);
+    position: relative;
+    //top: 200px;
+    border-radius: 19px;
+    left: 0%;
+    height: 77vh;
+    margin-top: 13rem;
+    display: none;
+    &-btn{
+      position: absolute;
+      right: 64px;
+      top: -5rem;
+      font-size: 1.8rem;
+      font-family: 'Sniglet', sans-serif;
+      cursor: pointer;
+    }
+    &-card {
+      position: relative;
+    }
+    &-img {
+      width: 30%;
+      position: absolute;
+      top: -12rem;
+      left: 2%;
+    }
+    &-name {
+      position: absolute;
+      right: 37%;
+      top: 2rem;
+      color: $characters-name;
+      font-size: 3rem;
+    }
+    &-info{
+      width: 50%;
+      position: absolute;
+      left: 55rem;
+      top: 13rem;
+      color: $characters-name;
+      font-size: 1.8rem;
+      line-height: 2.8rem;
+    }
+    & strong{
+      position: absolute;
+      bottom: -50rem;
+      left: 12rem;
+      color: $characters-name;
+      font-size: 3rem;
+    }
+    &-clipswrap{
+      position: absolute;
+      top: 90%;
+      left: 50%;
+      transform: translate(-50%,-66%);
+      width: 55%;
+      height: 20%;
+      display: flex;
+      justify-content: space-evenly;
+      &-clipswrap1{
+        width: 30%;
+        height: auto;
+      }
+      & iframe{
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  &--17 {
+    width: 70%;
+    background-image:linear-gradient(to left, #c3d2bb,#6da538);
+    position: relative;
+    //top: 200px;
+    border-radius: 19px;
+    left: 0%;
+    height: 77vh;
+    margin-top: 13rem;
+    display: none;
+    &-btn{
+      position: absolute;
+      right: 64px;
+      top: -5rem;
+      font-size: 1.8rem;
+      font-family: 'Sniglet', sans-serif;
+      cursor: pointer;
+    }
+    &-card {
+      position: relative;
+    }
+    &-img {
+      width: 48%;
+      position: absolute;
+      top: -12rem;
+      left: 5%;
+    }
+    &-name {
+      position: absolute;
+      right: 37%;
+      top: 2rem;
+      color: $characters-name;
+      font-size: 3rem;
+    }
+    &-info{
+      width: 50%;
+      position: absolute;
+      left: 55rem;
+      top: 13rem;
+      color: $characters-name;
+      font-size: 1.8rem;
+      line-height: 2.8rem;
+    }
+    & strong{
+      position: absolute;
+      bottom: -50rem;
+      left: 12rem;
+      color: $characters-name;
+      font-size: 3rem;
+    }
+    &-clipswrap{
+      position: absolute;
+      top: 90%;
+      left: 50%;
+      transform: translate(-50%,-66%);
+      width: 55%;
+      height: 20%;
+      display: flex;
+      justify-content: space-evenly;
+      &-clipswrap1{
+        width: 30%;
+        height: auto;
+      }
+      & iframe{
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  &--18 {
+    width: 70%;
+    background-image:linear-gradient(to left, #64406e,#80548f);
+    position: relative;
+    //top: 200px;
+    border-radius: 19px;
+    left: 0%;
+    height: 77vh;
+    margin-top: 13rem;
+    display: none;
+    &-btn{
+      position: absolute;
+      right: 64px;
+      top: -5rem;
+      font-size: 1.8rem;
+      font-family: 'Sniglet', sans-serif;
+      cursor: pointer;
+    }
+    &-card {
+      position: relative;
+    }
+    &-img {
+      width: 35%;
+      position: absolute;
+      top: -12rem;
+      left: 7%;
+    }
+    &-name {
+      position: absolute;
+      right: 37%;
+      top: 2rem;
+      color: $characters-name;
+      font-size: 3rem;
+    }
+    &-info{
+      width: 50%;
+      position: absolute;
+      left: 55rem;
+      top: 13rem;
+      color: $characters-name;
+      font-size: 1.8rem;
+      line-height: 2.8rem;
+    }
+    & strong{
+      position: absolute;
+      bottom: -50rem;
+      left: 12rem;
+      color: $characters-name;
+      font-size: 3rem;
+    }
+    &-clipswrap{
+      position: absolute;
+      top: 90%;
+      left: 50%;
+      transform: translate(-50%,-66%);
+      width: 55%;
+      height: 20%;
+      display: flex;
+      justify-content: space-evenly;
+      &-clipswrap1{
+        width: 30%;
+        height: auto;
+      }
+      & iframe{
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
 }
