@@ -1,4 +1,6 @@
 @import "abstact/variables";
+@import "abstact/mixins";
+
 
 
 @import "componets/big-card";
@@ -18,9 +20,8 @@
 
 @import "base/base";
 
-
-@import "layout/main-page";
 @import "layout/header";
+@import "layout/main-page";
 @import "layout/bodywrap";
 
 

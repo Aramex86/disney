@@ -5,7 +5,8 @@ $(document).ready(function () {
         moveSlides:1,
         slideWidth:362,
         keyboardEnabled:true,
-        randomStart:true
+        //randomStart:true,
+        shrinkItems:true,
     });
     $('.slide1__card--info-link').on('click',function () {
         $('.big__cardwrap--1').fadeIn(500).toggleClass("bla");
@@ -170,7 +171,38 @@ $(document).ready(function () {
         });
     });
 
+    $('#x').keyup(function () {
+        $('#result').html('');
 
+        var searchField = $('#x').val();
+
+        var expression = new RegExp(searchField,"i");
+
+        $.getJSON("data.json",function (data) {
+            $.each(data,function (key,value) {
+                if (value.name.search(expression) !=-1 || value.movie.search(expression) !=-1){
+                    $('#result').append('<li class="list-item">'+ value.name + ' | <span>'+'Movie ' + value.movie+'</span>'+'</li>');
+                }
+            });
+        });
+    });
+
+    $('#result').on('click', 'li', function() {
+        var click_text = $(this).text().split('|');
+        $('#x').val($.trim(click_text[0]));
+        $("#result").html('');
+    });
+
+/*
+$('#x').on('keyup',function () {
+   var value = $(this).val().toLowerCase();
+   $('.list li').filter(function () {
+       $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
+   });
+
+
+});
+*/
 
 });
 

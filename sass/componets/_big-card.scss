@@ -30,13 +30,26 @@
       position: absolute;
       top: -10rem;
       left: -9%;
+      @include respond(phone){
+        top: -1rem;
+      }
     }
+
     &-name {
       position: absolute;
       right: 36%;
       top: 2rem;
       color: $characters-name;
       font-size: 3rem;
+      @include respond(tab-land){
+        right: 29%;
+      }
+      @include respond(tab-port){
+        right: 26%;
+      }
+      @include respond(phone){
+        right: 10%;
+      }
     }
     &-info{
       width: 50%;
@@ -46,6 +59,17 @@
       color: $characters-name;
       font-size: 1.8rem;
       line-height: 2.8rem;
+      @include respond(tab-land) {
+        left: 42rem;
+      }
+      @include respond(tab-port){
+        left: 33rem;
+      }
+      @include respond(phone){
+        left: 0;
+        padding: 0 10px;
+        width: 100%;
+      }
     }
     & strong{
       position: absolute;
@@ -99,6 +123,9 @@
       position: absolute;
       top: -10rem;
       left: -5%;
+      @include respond(phone){
+        top: -1rem;
+      }
     }
     &-name {
       position: absolute;
@@ -106,6 +133,9 @@
       top: 2rem;
       color: $characters-name;
       font-size: 3rem;
+      @include respond(phone){
+        right: 21%;
+      }
     }
     &-info{
       width: 50%;
@@ -115,6 +145,18 @@
       color: $characters-name;
       font-size: 1.8rem;
       line-height: 2.8rem;
+      @include respond(tab-land) {
+        left: 42rem;
+      }
+      @include respond(tab-port){
+        left: 29rem;
+      }
+      @include respond(phone){
+        left: 0;
+        padding: 0 10px;
+        width: 100%;
+        top: 19rem;
+      }
     }
     & strong{
       position: absolute;
@@ -168,6 +210,9 @@
       position: absolute;
       top: -10rem;
       left: -5%;
+      @include respond(phone){
+        top: -1rem;
+      }
     }
     &-name {
       position: absolute;
@@ -175,6 +220,9 @@
       top: 2rem;
       color: $characters-name;
       font-size: 3rem;
+      @include respond(phone){
+        right: 21%;
+      }
     }
     &-info{
       width: 50%;
@@ -184,6 +232,17 @@
       color: $characters-name;
       font-size: 1.8rem;
       line-height: 2.8rem;
+      @include respond(tab-land) {
+        left: 42rem;
+      }
+      @include respond(tab-port){
+        left: 29rem;
+      }
+      @include respond(phone){
+        left: 0;
+        padding: 0 10px;
+        width: 100%;
+      }
     }
     & strong{
       position: absolute;
@@ -245,6 +304,9 @@
       top: 2rem;
       color: $characters-name;
       font-size: 3rem;
+      @include respond(phone){
+        right: 21%;
+      }
     }
     &-info{
       width: 50%;
@@ -254,6 +316,17 @@
       color: $characters-name;
       font-size: 1.8rem;
       line-height: 2.8rem;
+      @include respond(tab-land){
+        left: 42rem;
+      }
+      @include respond(tab-port){
+        left: 29rem;
+      }
+      @include respond(phone){
+        left: 0;
+        padding: 0 10px;
+        width: 100%;
+      }
     }
     & strong{
       position: absolute;
@@ -314,6 +387,9 @@
       top: 2rem;
       color: $characters-name;
       font-size: 3rem;
+      @include respond(phone){
+        right: 21%;
+      }
     }
     &-info{
       width: 50%;
@@ -323,6 +399,18 @@
       color: $characters-name;
       font-size: 1.8rem;
       line-height: 2.8rem;
+      @include respond(tab-land){
+        left: 42rem;
+      }
+      @include respond(tab-port){
+        left: 29rem;
+      }
+      @include respond(phone){
+        left: 0;
+        padding: 0 10px;
+        width: 100%;
+      }
+
     }
     & strong{
       position: absolute;
@@ -383,6 +471,9 @@
       top: 2rem;
       color: $characters-name;
       font-size: 3rem;
+      @include respond(phone){
+        right: 21%;
+      }
     }
     &-info{
       width: 50%;
@@ -392,6 +483,17 @@
       color: $characters-name;
       font-size: 1.8rem;
       line-height: 2.8rem;
+      @include respond(tab-land){
+        left: 42rem;
+      }
+      @include respond(tab-port){
+        left: 29rem;
+      }
+      @include respond(phone){
+        left: 0;
+        padding: 0 10px;
+        width: 100%;
+      }
     }
     & strong{
       position: absolute;
@@ -453,6 +555,9 @@
       top: 2rem;
       color: $characters-name;
       font-size: 3rem;
+      @include respond(phone){
+        right: 21%;
+      }
     }
     &-info{
       width: 50%;
@@ -462,6 +567,17 @@
       color: $characters-name;
       font-size: 1.8rem;
       line-height: 2.8rem;
+      @include respond(tab-land){
+        left: 42rem;
+      }
+      @include respond(tab-port){
+        left: 29rem;
+      }
+      @include respond(phone){
+        left: 0;
+        padding: 0 10px;
+        width: 100%;
+      }
     }
     & strong{
       position: absolute;
@@ -522,6 +638,9 @@
       top: 2rem;
       color: $characters-name;
       font-size: 3rem;
+      @include respond(phone){
+        right: 21%;
+      }
     }
     &-info{
       width: 50%;
@@ -531,6 +650,17 @@
       color: $characters-name;
       font-size: 1.8rem;
       line-height: 2.8rem;
+      @include respond(tab-land){
+        left: 42rem;
+      }
+      @include respond(tab-port){
+        left: 29rem;
+      }
+      @include respond(phone){
+        left: 0;
+        padding: 0 10px;
+        width: 100%;
+      }
     }
     & strong{
       position: absolute;
@@ -591,6 +721,9 @@
       top: 2rem;
       color: $characters-name;
       font-size: 3rem;
+      @include respond(phone){
+        right: 21%;
+      }
     }
     &-info{
       width: 50%;
@@ -600,6 +733,17 @@
       color: $characters-name;
       font-size: 1.8rem;
       line-height: 2.8rem;
+      @include respond(tab-land){
+        left: 42rem;
+      }
+      @include respond(tab-port){
+        left: 29rem;
+      }
+      @include respond(phone){
+        left: 0;
+        padding: 0 10px;
+        width: 100%;
+      }
     }
     & strong{
       position: absolute;
@@ -661,6 +805,9 @@
       top: 2rem;
       color: $characters-name;
       font-size: 3rem;
+      @include respond(phone){
+        right: 21%;
+      }
     }
     &-info{
       width: 50%;
@@ -670,6 +817,17 @@
       color: $characters-name;
       font-size: 1.8rem;
       line-height: 2.8rem;
+      @include respond(tab-land){
+        left: 42rem;
+      }
+      @include respond(tab-port){
+        left: 29rem;
+      }
+      @include respond(phone){
+        left: 0;
+        padding: 0 10px;
+        width: 100%;
+      }
     }
     & strong{
       position: absolute;
@@ -730,6 +888,9 @@
       top: 2rem;
       color: $characters-name;
       font-size: 3rem;
+      @include respond(phone){
+        right: 21%;
+      }
     }
     &-info{
       width: 50%;
@@ -739,6 +900,17 @@
       color: $characters-name;
       font-size: 1.8rem;
       line-height: 2.8rem;
+      @include respond(tab-land){
+        left: 42rem;
+      }
+      @include respond(tab-port){
+        left: 29rem;
+      }
+      @include respond(phone){
+        left: 0;
+        padding: 0 10px;
+        width: 100%;
+      }
     }
     & strong{
       position: absolute;
@@ -799,6 +971,9 @@
       top: 2rem;
       color: $characters-name;
       font-size: 3rem;
+      @include respond(phone){
+        right: 21%;
+      }
     }
     &-info{
       width: 50%;
@@ -808,7 +983,19 @@
       color: $characters-name;
       font-size: 1.8rem;
       line-height: 2.8rem;
+      @include respond(tab-land){
+        left: 42rem;
+      }
+      @include respond(tab-port){
+        left: 29rem;
     }
+      @include respond(phone){
+        left: 0;
+        padding: 0 10px;
+        width: 100%;
+      }
+
+  }
     & strong{
       position: absolute;
       bottom: -50rem;
@@ -869,6 +1056,9 @@
       top: 2rem;
       color: $characters-name;
       font-size: 3rem;
+      @include respond(phone){
+        right: 21%;
+      }
     }
     &-info{
       width: 50%;
@@ -878,6 +1068,17 @@
       color: $characters-name;
       font-size: 1.8rem;
       line-height: 2.8rem;
+      @include respond(tab-land){
+      left: 42rem;
+    }
+      @include respond(tab-port){
+        left: 29rem;
+      }
+      @include respond(phone){
+        left: 0;
+        padding: 0 10px;
+        width: 100%;
+      }
     }
     & strong{
       position: absolute;
@@ -938,6 +1139,9 @@
       top: 2rem;
       color: $characters-name;
       font-size: 3rem;
+      @include respond(phone){
+        right: 21%;
+      }
     }
     &-info{
       width: 50%;
@@ -947,6 +1151,17 @@
       color: $characters-name;
       font-size: 1.8rem;
       line-height: 2.8rem;
+      @include respond(tab-land){
+      left: 42rem;
+    }
+      @include respond(tab-port){
+        left: 29rem;
+      }
+      @include respond(phone){
+        left: 0;
+        padding: 0 10px;
+        width: 100%;
+      }
     }
     & strong{
       position: absolute;
@@ -1007,6 +1222,9 @@
       top: 2rem;
       color: $characters-name;
       font-size: 3rem;
+      @include respond(phone){
+        right: 21%;
+      }
     }
     &-info{
       width: 50%;
@@ -1016,6 +1234,17 @@
       color: $characters-name;
       font-size: 1.8rem;
       line-height: 2.8rem;
+      @include respond(tab-land) {
+        left: 42rem;
+      }
+      @include respond(tab-port){
+        left: 29rem;
+      }
+      @include respond(phone){
+        left: 0;
+        padding: 0 10px;
+        width: 100%;
+      }
     }
     & strong{
       position: absolute;
@@ -1077,6 +1306,9 @@
       top: 2rem;
       color: $characters-name;
       font-size: 3rem;
+      @include respond(phone){
+        right: 21%;
+      }
     }
     &-info{
       width: 50%;
@@ -1086,6 +1318,17 @@
       color: $characters-name;
       font-size: 1.8rem;
       line-height: 2.8rem;
+      @include respond(tab-land) {
+        left: 42rem;
+      }
+      @include respond(tab-port){
+        left: 29rem;
+      }
+      @include respond(phone){
+        left: 0;
+        padding: 0 10px;
+        width: 100%;
+      }
     }
     & strong{
       position: absolute;
@@ -1146,6 +1389,9 @@
       top: 2rem;
       color: $characters-name;
       font-size: 3rem;
+      @include respond(phone){
+        right: 21%;
+      }
     }
     &-info{
       width: 50%;
@@ -1155,6 +1401,17 @@
       color: $characters-name;
       font-size: 1.8rem;
       line-height: 2.8rem;
+      @include respond(tab-land) {
+        left: 42rem;
+      }
+      @include respond(tab-port){
+        left: 29rem;
+      }
+      @include respond(phone){
+        left: 0;
+        padding: 0 10px;
+        width: 100%;
+      }
     }
     & strong{
       position: absolute;
@@ -1215,6 +1472,9 @@
       top: 2rem;
       color: $characters-name;
       font-size: 3rem;
+      @include respond(phone){
+        right: 21%;
+      }
     }
     &-info{
       width: 50%;
@@ -1224,6 +1484,17 @@
       color: $characters-name;
       font-size: 1.8rem;
       line-height: 2.8rem;
+      @include respond(tab-land) {
+        left: 42rem;
+      }
+      @include respond(tab-port){
+        left: 29rem;
+      }
+      @include respond(phone){
+        left: 0;
+        padding: 0 10px;
+        width: 100%;
+      }
     }
     & strong{
       position: absolute;

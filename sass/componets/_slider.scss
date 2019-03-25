@@ -53,6 +53,9 @@
     height: 5%;
     background-color: black;
     transform: rotate(-43deg);
+    @include respond(phone){
+      top: 32%;
+    }
   }
   &::before {
     content: "";
@@ -71,6 +74,12 @@
   left: 85% !important;
   background: none !important;
   width: 5rem !important;
+  @include respond(tab-port){
+    left: 83% !important;
+  }
+  @include respond(phone){
+    left: 77% !important;
+  }
   &:hover {
     color: $menu-icom-bg;
   }
@@ -84,6 +93,9 @@
     height: 5%;
     background-color: black;
     transform: rotate(43deg);
+    @include respond(phone){
+      top: 32%;
+    }
   }
   &::before {
     content: "";
