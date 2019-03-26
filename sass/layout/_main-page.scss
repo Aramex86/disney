@@ -5,4 +5,7 @@
   @include respond(phone){
     margin-top: 0;
   }
+  @include respond(small-phone){
+    margin-top: 35px;
+  }
 }

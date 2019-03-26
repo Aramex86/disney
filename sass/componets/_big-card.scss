@@ -21,6 +21,9 @@
       font-size: 1.8rem;
       font-family: 'Sniglet', sans-serif;
       cursor: pointer;
+      @include respond(small-phone){
+        right: 9%;
+      }
     }
     &-card {
       position: relative;
@@ -32,6 +35,11 @@
       left: -9%;
       @include respond(phone){
         top: -1rem;
+      }
+      @include respond(small-phone){
+        left: -14%;
+        top: -3rem;
+        width: 59%;
       }
     }
 
@@ -49,6 +57,10 @@
       }
       @include respond(phone){
         right: 10%;
+      }
+      @include respond(small-phone){
+        right: 3%;
+        font-size: 2rem;
       }
     }
     &-info{
@@ -70,6 +82,11 @@
         padding: 0 10px;
         width: 100%;
       }
+      @include respond(small-phone){
+        top: 8rem;
+        font-size: 1.8rem;
+        line-height: 1.6rem;
+      }
     }
     & strong{
       position: absolute;
@@ -77,6 +94,14 @@
       left: 12rem;
       color: $characters-name;
       font-size: 3rem;
+      @include respond(phone){
+        bottom:-47rem;
+      }
+      @include respond(small-phone){
+        left: 1rem;
+        bottom: -42rem;
+        font-size: 2rem;
+      }
     }
     &-clipswrap{
       position: absolute;
@@ -87,6 +112,17 @@
       height: 20%;
       display: flex;
       justify-content: space-evenly;
+      @include respond(phone){
+        top: 89%;
+        width: 65%;
+        height: 15%;
+      }
+      @include respond(small-phone){
+        width: 75%;
+        justify-content: space-between;
+        height: 19%;
+        left: 59%;
+      }
       &-clipswrap1{
         width: 30%;
         height: auto;
@@ -114,6 +150,9 @@
       font-size: 1.8rem;
       font-family: 'Sniglet', sans-serif;
       cursor: pointer;
+      @include respond(small-phone){
+        right: 9%;
+      }
     }
     &-card {
       position: relative;
@@ -124,7 +163,10 @@
       top: -10rem;
       left: -5%;
       @include respond(phone){
-        top: -1rem;
+        top: -7rem;
+      }
+      @include respond(small-phone){
+        width: 59%;
       }
     }
     &-name {
@@ -135,6 +177,10 @@
       font-size: 3rem;
       @include respond(phone){
         right: 21%;
+      }
+      @include respond(small-phone){
+        right: 3%;
+        font-size: 2rem;
       }
     }
     &-info{
@@ -155,7 +201,12 @@
         left: 0;
         padding: 0 10px;
         width: 100%;
-        top: 19rem;
+        top: 13rem;
+      }
+      @include respond(small-phone){
+        top: 8rem;
+        font-size: 1.8rem;
+        line-height: 1.6rem;
       }
     }
     & strong{
@@ -164,6 +215,14 @@
       left: 12rem;
       color: $characters-name;
       font-size: 3rem;
+      @include respond(phone){
+        bottom:-47rem;
+      }
+      @include respond(small-phone){
+        left: 1rem;
+        bottom: -42rem;
+        font-size: 2rem;
+      }
     }
     &-clipswrap{
       position: absolute;
@@ -174,6 +233,17 @@
       height: 20%;
       display: flex;
       justify-content: space-evenly;
+      @include respond(phone){
+        top: 89%;
+        width: 65%;
+        height: 15%;
+      }
+      @include respond(small-phone){
+        width: 75%;
+        justify-content: space-between;
+        height: 19%;
+        left: 59%;
+      }
       &-clipswrap1{
         width: 30%;
         height: auto;
@@ -201,6 +271,9 @@
       font-size: 1.8rem;
       font-family: 'Sniglet', sans-serif;
       cursor: pointer;
+      @include respond(small-phone){
+        right: 9%;
+      }
     }
     &-card {
       position: relative;
@@ -213,6 +286,11 @@
       @include respond(phone){
         top: -1rem;
       }
+      @include respond(small-phone){
+        left: -14%;
+        top: -1rem;
+        width: 59%;
+      }
     }
     &-name {
       position: absolute;
@@ -222,6 +300,10 @@
       font-size: 3rem;
       @include respond(phone){
         right: 21%;
+      }
+      @include respond(small-phone){
+        right: 3%;
+        font-size: 2rem;
       }
     }
     &-info{
@@ -243,6 +325,11 @@
         padding: 0 10px;
         width: 100%;
       }
+      @include respond(small-phone){
+        top: 8rem;
+        font-size: 1.8rem;
+        line-height: 1.6rem;
+      }
     }
     & strong{
       position: absolute;
@@ -250,6 +337,15 @@
       left: 12rem;
       color: $characters-name;
       font-size: 3rem;
+      @include respond(phone){
+        bottom:-47rem;
+      }
+      @include respond(small-phone){
+        left: 1rem;
+        bottom: -42rem;
+        font-size: 2rem;
+      }
+
     }
     &-clipswrap{
       position: absolute;
@@ -260,6 +356,17 @@
       height: 20%;
       display: flex;
       justify-content: space-evenly;
+      @include respond(phone){
+        top: 89%;
+        width: 65%;
+        height: 15%;
+      }
+      @include respond(small-phone){
+        width: 75%;
+        justify-content: space-between;
+        height: 19%;
+        left: 59%;
+      }
       &-clipswrap1{
         width: 30%;
         height: auto;
@@ -288,6 +395,9 @@
       font-size: 1.8rem;
       font-family: 'Sniglet', sans-serif;
       cursor: pointer;
+      @include respond(small-phone){
+        right: 33px;
+      }
     }
     &-card {
       position: relative;
@@ -297,6 +407,12 @@
       position: absolute;
       top: -13rem;
       left: 10%;
+      @include respond(small-phone){
+        width: 33%;
+        position: absolute;
+        top: -12rem;
+        left: 10%;
+      }
     }
     &-name {
       position: absolute;
@@ -306,6 +422,10 @@
       font-size: 3rem;
       @include respond(phone){
         right: 21%;
+      }
+      @include respond(small-phone){
+        right: 11%;
+        font-size: 2rem;
       }
     }
     &-info{
@@ -327,6 +447,11 @@
         padding: 0 10px;
         width: 100%;
       }
+      @include respond(small-phone){
+        top: 8rem;
+        font-size: 1.8rem;
+        line-height: 1.6rem;
+      }
     }
     & strong{
       position: absolute;
@@ -334,7 +459,13 @@
       left: 12rem;
       color: $characters-name;
       font-size: 3rem;
+      @include respond(small-phone){
+        left: 1rem;
+        bottom: -42rem;
+        font-size: 2rem;
+      }
     }
+
     &-clipswrap{
       position: absolute;
       top: 90%;
@@ -344,6 +475,12 @@
       height: 20%;
       display: flex;
       justify-content: space-evenly;
+      @include respond(small-phone){
+        width: 75%;
+        justify-content: space-between;
+        height: 19%;
+        left: 59%;
+      }
       &-clipswrap1{
         width: 30%;
         height: auto;
@@ -371,6 +508,9 @@
       font-size: 1.8rem;
       font-family: 'Sniglet', sans-serif;
       cursor: pointer;
+      @include respond(small-phone){
+        right: 33px;
+      }
     }
     &-card {
       position: relative;
@@ -380,6 +520,12 @@
       position: absolute;
       top: -12rem;
       left: 7%;
+      @include respond(small-phone){
+        width: 49%;
+        position: absolute;
+        top: -11rem;
+        left: -1%;
+      }
     }
     &-name {
       position: absolute;
@@ -389,6 +535,10 @@
       font-size: 3rem;
       @include respond(phone){
         right: 21%;
+      }
+      @include respond(small-phone){
+        right: 11%;
+        font-size: 2rem;
       }
     }
     &-info{
@@ -410,6 +560,11 @@
         padding: 0 10px;
         width: 100%;
       }
+      @include respond(small-phone){
+        top: 8rem;
+        font-size: 1.8rem;
+        line-height: 1.6rem;
+      }
 
     }
     & strong{
@@ -418,7 +573,13 @@
       left: 12rem;
       color: $characters-name;
       font-size: 3rem;
+      @include respond(small-phone){
+        left: 1rem;
+        bottom: -42rem;
+        font-size: 2rem;
+      }
     }
+
     &-clipswrap{
       position: absolute;
       top: 90%;
@@ -428,6 +589,12 @@
       height: 20%;
       display: flex;
       justify-content: space-evenly;
+      @include respond(small-phone){
+        width: 75%;
+        justify-content: space-between;
+        height: 19%;
+        left: 59%;
+      }
       &-clipswrap1{
         width: 30%;
         height: auto;
@@ -455,6 +622,9 @@
       font-size: 1.8rem;
       font-family: 'Sniglet', sans-serif;
       cursor: pointer;
+      @include respond(small-phone){
+        right: 33px;
+      }
     }
     &-card {
       position: relative;
@@ -464,6 +634,12 @@
       position: absolute;
       top: -12rem;
       left: 7%;
+      @include respond(small-phone){
+        width: 33%;
+        position: absolute;
+        top: -9rem;
+        left: 7%;
+      }
     }
     &-name {
       position: absolute;
@@ -473,6 +649,10 @@
       font-size: 3rem;
       @include respond(phone){
         right: 21%;
+      }
+      @include respond(small-phone){
+        right: 11%;
+        font-size: 2rem;
       }
     }
     &-info{
@@ -494,6 +674,11 @@
         padding: 0 10px;
         width: 100%;
       }
+      @include respond(small-phone){
+        top: 8rem;
+        font-size: 1.8rem;
+        line-height: 1.6rem;
+      }
     }
     & strong{
       position: absolute;
@@ -501,7 +686,13 @@
       left: 12rem;
       color: $characters-name;
       font-size: 3rem;
+      @include respond(small-phone){
+        left: 1rem;
+        bottom: -42rem;
+        font-size: 2rem;
+      }
     }
+
     &-clipswrap{
       position: absolute;
       top: 90%;
@@ -511,6 +702,12 @@
       height: 20%;
       display: flex;
       justify-content: space-evenly;
+      @include respond(small-phone){
+        width: 75%;
+        justify-content: space-between;
+        height: 19%;
+        left: 59%;
+      }
       &-clipswrap1{
         width: 30%;
         height: auto;
@@ -539,6 +736,9 @@
       font-size: 1.8rem;
       font-family: 'Sniglet', sans-serif;
       cursor: pointer;
+      @include respond(small-phone){
+        right: 33px;
+      }
     }
     &-card {
       position: relative;
@@ -548,6 +748,12 @@
       position: absolute;
       top: -12rem;
       left: 7%;
+      @include respond(small-phone){
+        width: 43%;
+        position: absolute;
+        top: -12rem;
+        left: 6%;
+      }
     }
     &-name {
       position: absolute;
@@ -557,6 +763,10 @@
       font-size: 3rem;
       @include respond(phone){
         right: 21%;
+      }
+      @include respond(small-phone){
+        right: 11%;
+        font-size: 2rem;
       }
     }
     &-info{
@@ -578,6 +788,11 @@
         padding: 0 10px;
         width: 100%;
       }
+      @include respond(small-phone){
+        top: 8rem;
+        font-size: 1.8rem;
+        line-height: 1.6rem;
+      }
     }
     & strong{
       position: absolute;
@@ -585,7 +800,13 @@
       left: 12rem;
       color: $characters-name;
       font-size: 3rem;
+      @include respond(small-phone){
+        left: 1rem;
+        bottom: -42rem;
+        font-size: 2rem;
+      }
     }
+
     &-clipswrap{
       position: absolute;
       top: 90%;
@@ -595,6 +816,12 @@
       height: 20%;
       display: flex;
       justify-content: space-evenly;
+      @include respond(small-phone){
+        width: 75%;
+        justify-content: space-between;
+        height: 19%;
+        left: 59%;
+      }
       &-clipswrap1{
         width: 30%;
         height: auto;
@@ -622,6 +849,9 @@
       font-size: 1.8rem;
       font-family: 'Sniglet', sans-serif;
       cursor: pointer;
+      @include respond(small-phone){
+        right: 33px;
+      }
     }
     &-card {
       position: relative;
@@ -631,6 +861,12 @@
       position: absolute;
       top: -12rem;
       left: 0;
+      @include respond(small-phone){
+        width: 60%;
+        position: absolute;
+        top: -9rem;
+        left: -4%;
+      }
     }
     &-name {
       position: absolute;
@@ -640,6 +876,10 @@
       font-size: 3rem;
       @include respond(phone){
         right: 21%;
+      }
+      @include respond(small-phone){
+        right: 11%;
+        font-size: 2rem;
       }
     }
     &-info{
@@ -661,6 +901,11 @@
         padding: 0 10px;
         width: 100%;
       }
+      @include respond(small-phone){
+        top: 8rem;
+        font-size: 1.8rem;
+        line-height: 1.6rem;
+      }
     }
     & strong{
       position: absolute;
@@ -668,7 +913,13 @@
       left: 12rem;
       color: $characters-name;
       font-size: 3rem;
+      @include respond(small-phone){
+        left: 1rem;
+        bottom: -42rem;
+        font-size: 2rem;
+      }
     }
+
     &-clipswrap{
       position: absolute;
       top: 90%;
@@ -678,6 +929,12 @@
       height: 20%;
       display: flex;
       justify-content: space-evenly;
+      @include respond(small-phone){
+        width: 75%;
+        justify-content: space-between;
+        height: 19%;
+        left: 59%;
+      }
       &-clipswrap1{
         width: 30%;
         height: auto;
@@ -705,6 +962,9 @@
       font-size: 1.8rem;
       font-family: 'Sniglet', sans-serif;
       cursor: pointer;
+      @include respond(small-phone){
+        right: 33px;
+      }
     }
     &-card {
       position: relative;
@@ -714,6 +974,12 @@
       position: absolute;
       top: -12rem;
       left: 7%;
+      @include respond(small-phone){
+        width: 53%;
+        position: absolute;
+        top: -13rem;
+        left: -2%;
+      }
     }
     &-name {
       position: absolute;
@@ -723,6 +989,10 @@
       font-size: 3rem;
       @include respond(phone){
         right: 21%;
+      }
+      @include respond(small-phone){
+        right: 11%;
+        font-size: 2rem;
       }
     }
     &-info{
@@ -744,6 +1014,11 @@
         padding: 0 10px;
         width: 100%;
       }
+      @include respond(small-phone){
+        top: 8rem;
+        font-size: 1.8rem;
+        line-height: 1.6rem;
+      }
     }
     & strong{
       position: absolute;
@@ -751,7 +1026,13 @@
       left: 12rem;
       color: $characters-name;
       font-size: 3rem;
+      @include respond(small-phone){
+        left: 1rem;
+        bottom: -42rem;
+        font-size: 2rem;
+      }
     }
+
     &-clipswrap{
       position: absolute;
       top: 90%;
@@ -761,6 +1042,12 @@
       height: 20%;
       display: flex;
       justify-content: space-evenly;
+      @include respond(small-phone){
+        width: 75%;
+        justify-content: space-between;
+        height: 19%;
+        left: 59%;
+      }
       &-clipswrap1{
         width: 30%;
         height: auto;
@@ -789,6 +1076,9 @@
       font-size: 1.8rem;
       font-family: 'Sniglet', sans-serif;
       cursor: pointer;
+      @include respond(small-phone){
+        right: 33px;
+      }
     }
     &-card {
       position: relative;
@@ -798,6 +1088,12 @@
       position: absolute;
       top: -12rem;
       left: 7%;
+      @include respond(small-phone){
+        width: 46%;
+        position: absolute;
+        top: -12rem;
+        left: 10%;
+      }
     }
     &-name {
       position: absolute;
@@ -807,6 +1103,10 @@
       font-size: 3rem;
       @include respond(phone){
         right: 21%;
+      }
+      @include respond(small-phone){
+        right: 11%;
+        font-size: 2rem;
       }
     }
     &-info{
@@ -828,6 +1128,11 @@
         padding: 0 10px;
         width: 100%;
       }
+      @include respond(small-phone){
+        top: 8rem;
+        font-size: 1.8rem;
+        line-height: 1.6rem;
+      }
     }
     & strong{
       position: absolute;
@@ -835,7 +1140,13 @@
       left: 12rem;
       color: $characters-name;
       font-size: 3rem;
+      @include respond(small-phone){
+        left: 1rem;
+        bottom: -42rem;
+        font-size: 2rem;
+      }
     }
+
     &-clipswrap{
       position: absolute;
       top: 90%;
@@ -845,6 +1156,12 @@
       height: 20%;
       display: flex;
       justify-content: space-evenly;
+      @include respond(small-phone){
+        width: 75%;
+        justify-content: space-between;
+        height: 19%;
+        left: 59%;
+      }
       &-clipswrap1{
         width: 30%;
         height: auto;
@@ -872,6 +1189,9 @@
       font-size: 1.8rem;
       font-family: 'Sniglet', sans-serif;
       cursor: pointer;
+      @include respond(small-phone){
+        right: 33px;
+      }
     }
     &-card {
       position: relative;
@@ -881,6 +1201,12 @@
       position: absolute;
       top: -12rem;
       left: 0;
+      @include respond(small-phone){
+        width: 36%;
+        position: absolute;
+        top: -12rem;
+        left: 10%;
+      }
     }
     &-name {
       position: absolute;
@@ -890,6 +1216,10 @@
       font-size: 3rem;
       @include respond(phone){
         right: 21%;
+      }
+      @include respond(small-phone){
+        right: 11%;
+        font-size: 2rem;
       }
     }
     &-info{
@@ -911,6 +1241,11 @@
         padding: 0 10px;
         width: 100%;
       }
+      @include respond(small-phone){
+        top: 8rem;
+        font-size: 1.8rem;
+        line-height: 1.6rem;
+      }
     }
     & strong{
       position: absolute;
@@ -918,7 +1253,13 @@
       left: 12rem;
       color: $characters-name;
       font-size: 3rem;
+      @include respond(small-phone){
+        left: 1rem;
+        bottom: -42rem;
+        font-size: 2rem;
+      }
     }
+
     &-clipswrap{
       position: absolute;
       top: 90%;
@@ -928,6 +1269,12 @@
       height: 20%;
       display: flex;
       justify-content: space-evenly;
+      @include respond(small-phone){
+        width: 75%;
+        justify-content: space-between;
+        height: 19%;
+        left: 59%;
+      }
       &-clipswrap1{
         width: 30%;
         height: auto;
@@ -955,6 +1302,9 @@
       font-size: 1.8rem;
       font-family: 'Sniglet', sans-serif;
       cursor: pointer;
+      @include respond(small-phone){
+        right: 33px;
+      }
     }
     &-card {
       position: relative;
@@ -964,6 +1314,12 @@
       position: absolute;
       top: -12rem;
       left: 7%;
+      @include respond(small-phone){
+        width: 31%;
+        position: absolute;
+        top: -12rem;
+        left: 10%;
+      }
     }
     &-name {
       position: absolute;
@@ -973,6 +1329,10 @@
       font-size: 3rem;
       @include respond(phone){
         right: 21%;
+      }
+      @include respond(small-phone){
+        right: 11%;
+        font-size: 2rem;
       }
     }
     &-info{
@@ -994,6 +1354,11 @@
         padding: 0 10px;
         width: 100%;
       }
+      @include respond(small-phone){
+        top: 8rem;
+        font-size: 1.8rem;
+        line-height: 1.6rem;
+      }
 
   }
     & strong{
@@ -1002,7 +1367,13 @@
       left: 12rem;
       color: $characters-name;
       font-size: 3rem;
+      @include respond(small-phone){
+        left: 1rem;
+        bottom: -42rem;
+        font-size: 2rem;
+      }
     }
+
     &-clipswrap{
       position: absolute;
       top: 90%;
@@ -1012,6 +1383,12 @@
       height: 20%;
       display: flex;
       justify-content: space-evenly;
+      @include respond(small-phone){
+        width: 75%;
+        justify-content: space-between;
+        height: 19%;
+        left: 59%;
+      }
       &-clipswrap1{
         width: 30%;
         height: auto;
@@ -1040,6 +1417,9 @@
       font-size: 1.8rem;
       font-family: 'Sniglet', sans-serif;
       cursor: pointer;
+      @include respond(small-phone){
+        right: 33px;
+      }
     }
     &-card {
       position: relative;
@@ -1049,6 +1429,12 @@
       position: absolute;
       top: -20rem;
       left: 2%;
+      @include respond(small-phone){
+        width: 51%;
+        position: absolute;
+        top: -12rem;
+        left: -1%;
+      }
     }
     &-name {
       position: absolute;
@@ -1058,6 +1444,10 @@
       font-size: 3rem;
       @include respond(phone){
         right: 21%;
+      }
+      @include respond(small-phone){
+        right: 11%;
+        font-size: 2rem;
       }
     }
     &-info{
@@ -1079,6 +1469,11 @@
         padding: 0 10px;
         width: 100%;
       }
+      @include respond(small-phone){
+        top: 8rem;
+        font-size: 1.8rem;
+        line-height: 1.6rem;
+      }
     }
     & strong{
       position: absolute;
@@ -1086,7 +1481,13 @@
       left: 12rem;
       color: $characters-name;
       font-size: 3rem;
+      @include respond(small-phone){
+        left: 1rem;
+        bottom: -42rem;
+        font-size: 2rem;
+      }
     }
+
     &-clipswrap{
       position: absolute;
       top: 90%;
@@ -1096,6 +1497,12 @@
       height: 20%;
       display: flex;
       justify-content: space-evenly;
+      @include respond(small-phone){
+        width: 75%;
+        justify-content: space-between;
+        height: 19%;
+        left: 59%;
+      }
       &-clipswrap1{
         width: 30%;
         height: auto;
@@ -1123,6 +1530,9 @@
       font-size: 1.8rem;
       font-family: 'Sniglet', sans-serif;
       cursor: pointer;
+      @include respond(small-phone){
+        right: 33px;
+      }
     }
     &-card {
       position: relative;
@@ -1132,6 +1542,12 @@
       position: absolute;
       top: -12rem;
       left: 5%;
+      @include respond(small-phone){
+        width: 58%;
+        position: absolute;
+        top: -7rem;
+        left: -1%;
+      }
     }
     &-name {
       position: absolute;
@@ -1141,6 +1557,10 @@
       font-size: 3rem;
       @include respond(phone){
         right: 21%;
+      }
+      @include respond(small-phone){
+        right: 11%;
+        font-size: 2rem;
       }
     }
     &-info{
@@ -1162,6 +1582,11 @@
         padding: 0 10px;
         width: 100%;
       }
+      @include respond(small-phone){
+        top: 8rem;
+        font-size: 1.8rem;
+        line-height: 1.6rem;
+      }
     }
     & strong{
       position: absolute;
@@ -1169,7 +1594,13 @@
       left: 12rem;
       color: $characters-name;
       font-size: 3rem;
+      @include respond(small-phone){
+        left: 1rem;
+        bottom: -42rem;
+        font-size: 2rem;
+      }
     }
+
     &-clipswrap{
       position: absolute;
       top: 90%;
@@ -1179,6 +1610,12 @@
       height: 20%;
       display: flex;
       justify-content: space-evenly;
+      @include respond(small-phone){
+        width: 75%;
+        justify-content: space-between;
+        height: 19%;
+        left: 59%;
+      }
       &-clipswrap1{
         width: 30%;
         height: auto;
@@ -1206,6 +1643,9 @@
       font-size: 1.8rem;
       font-family: 'Sniglet', sans-serif;
       cursor: pointer;
+      @include respond(small-phone){
+        right: 33px;
+      }
     }
     &-card {
       position: relative;
@@ -1215,6 +1655,12 @@
       position: absolute;
       top: -12rem;
       left: 7%;
+      @include respond(small-phone){
+        width: 42%;
+        position: absolute;
+        top: -12rem;
+        left: 2%;
+      }
     }
     &-name {
       position: absolute;
@@ -1224,6 +1670,10 @@
       font-size: 3rem;
       @include respond(phone){
         right: 21%;
+      }
+      @include respond(small-phone){
+        right: 11%;
+        font-size: 2rem;
       }
     }
     &-info{
@@ -1245,6 +1695,11 @@
         padding: 0 10px;
         width: 100%;
       }
+      @include respond(small-phone){
+        top: 8rem;
+        font-size: 1.8rem;
+        line-height: 1.6rem;
+      }
     }
     & strong{
       position: absolute;
@@ -1252,7 +1707,13 @@
       left: 12rem;
       color: $characters-name;
       font-size: 3rem;
+      @include respond(small-phone){
+        left: 1rem;
+        bottom: -42rem;
+        font-size: 2rem;
+      }
     }
+
     &-clipswrap{
       position: absolute;
       top: 90%;
@@ -1262,6 +1723,12 @@
       height: 20%;
       display: flex;
       justify-content: space-evenly;
+      @include respond(small-phone){
+        width: 75%;
+        justify-content: space-between;
+        height: 19%;
+        left: 59%;
+      }
       &-clipswrap1{
         width: 30%;
         height: auto;
@@ -1290,6 +1757,9 @@
       font-size: 1.8rem;
       font-family: 'Sniglet', sans-serif;
       cursor: pointer;
+      @include respond(small-phone){
+        right: 33px;
+      }
     }
     &-card {
       position: relative;
@@ -1299,6 +1769,12 @@
       position: absolute;
       top: -12rem;
       left: 2%;
+      @include respond(small-phone){
+        width: 39%;
+        position: absolute;
+        top: -12rem;
+        left: 3%;
+      }
     }
     &-name {
       position: absolute;
@@ -1308,6 +1784,10 @@
       font-size: 3rem;
       @include respond(phone){
         right: 21%;
+      }
+      @include respond(small-phone){
+        right: 11%;
+        font-size: 2rem;
       }
     }
     &-info{
@@ -1329,6 +1809,11 @@
         padding: 0 10px;
         width: 100%;
       }
+      @include respond(small-phone){
+        top: 8rem;
+        font-size: 1.8rem;
+        line-height: 1.6rem;
+      }
     }
     & strong{
       position: absolute;
@@ -1336,7 +1821,13 @@
       left: 12rem;
       color: $characters-name;
       font-size: 3rem;
+      @include respond(small-phone){
+        left: 1rem;
+        bottom: -42rem;
+        font-size: 2rem;
+      }
     }
+
     &-clipswrap{
       position: absolute;
       top: 90%;
@@ -1346,6 +1837,12 @@
       height: 20%;
       display: flex;
       justify-content: space-evenly;
+      @include respond(small-phone){
+        width: 75%;
+        justify-content: space-between;
+        height: 19%;
+        left: 59%;
+      }
       &-clipswrap1{
         width: 30%;
         height: auto;
@@ -1373,6 +1870,9 @@
       font-size: 1.8rem;
       font-family: 'Sniglet', sans-serif;
       cursor: pointer;
+      @include respond(small-phone){
+        right: 33px;
+      }
     }
     &-card {
       position: relative;
@@ -1382,6 +1882,12 @@
       position: absolute;
       top: -12rem;
       left: 5%;
+      @include respond(small-phone){
+        width: 57%;
+        position: absolute;
+        top: -12rem;
+        left: -5%;
+      }
     }
     &-name {
       position: absolute;
@@ -1391,6 +1897,10 @@
       font-size: 3rem;
       @include respond(phone){
         right: 21%;
+      }
+      @include respond(small-phone){
+        right: 11%;
+        font-size: 2rem;
       }
     }
     &-info{
@@ -1412,6 +1922,11 @@
         padding: 0 10px;
         width: 100%;
       }
+      @include respond(small-phone){
+        top: 8rem;
+        font-size: 1.8rem;
+        line-height: 1.6rem;
+      }
     }
     & strong{
       position: absolute;
@@ -1419,7 +1934,13 @@
       left: 12rem;
       color: $characters-name;
       font-size: 3rem;
+      @include respond(small-phone){
+        left: 1rem;
+        bottom: -42rem;
+        font-size: 2rem;
+      }
     }
+
     &-clipswrap{
       position: absolute;
       top: 90%;
@@ -1429,6 +1950,12 @@
       height: 20%;
       display: flex;
       justify-content: space-evenly;
+      @include respond(small-phone){
+        width: 75%;
+        justify-content: space-between;
+        height: 19%;
+        left: 59%;
+      }
       &-clipswrap1{
         width: 30%;
         height: auto;
@@ -1456,6 +1983,9 @@
       font-size: 1.8rem;
       font-family: 'Sniglet', sans-serif;
       cursor: pointer;
+      @include respond(small-phone){
+        right: 33px;
+      }
     }
     &-card {
       position: relative;
@@ -1465,6 +1995,12 @@
       position: absolute;
       top: -12rem;
       left: 7%;
+      @include respond(small-phone){
+        width: 42%;
+        position: absolute;
+        top: -12rem;
+        left: -2%;
+      }
     }
     &-name {
       position: absolute;
@@ -1474,6 +2010,10 @@
       font-size: 3rem;
       @include respond(phone){
         right: 21%;
+      }
+      @include respond(small-phone){
+        right: 11%;
+        font-size: 2rem;
       }
     }
     &-info{
@@ -1495,6 +2035,11 @@
         padding: 0 10px;
         width: 100%;
       }
+      @include respond(small-phone){
+        top: 8rem;
+        font-size: 1.8rem;
+        line-height: 1.6rem;
+      }
     }
     & strong{
       position: absolute;
@@ -1502,7 +2047,13 @@
       left: 12rem;
       color: $characters-name;
       font-size: 3rem;
+      @include respond(small-phone){
+        left: 1rem;
+        bottom: -42rem;
+        font-size: 2rem;
+      }
     }
+
     &-clipswrap{
       position: absolute;
       top: 90%;
@@ -1512,6 +2063,12 @@
       height: 20%;
       display: flex;
       justify-content: space-evenly;
+      @include respond(small-phone){
+        width: 75%;
+        justify-content: space-between;
+        height: 19%;
+        left: 59%;
+      }
       &-clipswrap1{
         width: 30%;
         height: auto;

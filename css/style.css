@@ -35,6 +35,9 @@ $breakpoint argument choises:
     font-size: 1.8rem;
     font-family: 'Sniglet', sans-serif;
     cursor: pointer; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--1-btn {
+        right: 9%; } }
   .big__cardwrap--1-card {
     position: relative; }
   .big__cardwrap--1-img {
@@ -45,6 +48,11 @@ $breakpoint argument choises:
     @media only screen and (max-width: 37.5em) {
       .big__cardwrap--1-img {
         top: -1rem; } }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--1-img {
+        left: -14%;
+        top: -3rem;
+        width: 59%; } }
   .big__cardwrap--1-name {
     position: absolute;
     right: 36%;
@@ -60,6 +68,10 @@ $breakpoint argument choises:
     @media only screen and (max-width: 37.5em) {
       .big__cardwrap--1-name {
         right: 10%; } }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--1-name {
+        right: 3%;
+        font-size: 2rem; } }
   .big__cardwrap--1-info {
     width: 50%;
     position: absolute;
@@ -79,12 +91,25 @@ $breakpoint argument choises:
         left: 0;
         padding: 0 10px;
         width: 100%; } }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--1-info {
+        top: 8rem;
+        font-size: 1.8rem;
+        line-height: 1.6rem; } }
   .big__cardwrap--1 strong {
     position: absolute;
     bottom: -38rem;
     left: 12rem;
     color: #fff;
     font-size: 3rem; }
+    @media only screen and (max-width: 37.5em) {
+      .big__cardwrap--1 strong {
+        bottom: -47rem; } }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--1 strong {
+        left: 1rem;
+        bottom: -42rem;
+        font-size: 2rem; } }
   .big__cardwrap--1-clipswrap {
     position: absolute;
     top: 78%;
@@ -94,6 +119,17 @@ $breakpoint argument choises:
     height: 20%;
     display: flex;
     justify-content: space-evenly; }
+    @media only screen and (max-width: 37.5em) {
+      .big__cardwrap--1-clipswrap {
+        top: 89%;
+        width: 65%;
+        height: 15%; } }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--1-clipswrap {
+        width: 75%;
+        justify-content: space-between;
+        height: 19%;
+        left: 59%; } }
     .big__cardwrap--1-clipswrap-clipswrap1 {
       width: 30%;
       height: auto; }
@@ -117,6 +153,9 @@ $breakpoint argument choises:
     font-size: 1.8rem;
     font-family: 'Sniglet', sans-serif;
     cursor: pointer; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--2-btn {
+        right: 9%; } }
   .big__cardwrap--2-card {
     position: relative; }
   .big__cardwrap--2-img {
@@ -126,7 +165,10 @@ $breakpoint argument choises:
     left: -5%; }
     @media only screen and (max-width: 37.5em) {
       .big__cardwrap--2-img {
-        top: -1rem; } }
+        top: -7rem; } }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--2-img {
+        width: 59%; } }
   .big__cardwrap--2-name {
     position: absolute;
     right: 36%;
@@ -136,6 +178,10 @@ $breakpoint argument choises:
     @media only screen and (max-width: 37.5em) {
       .big__cardwrap--2-name {
         right: 21%; } }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--2-name {
+        right: 3%;
+        font-size: 2rem; } }
   .big__cardwrap--2-info {
     width: 50%;
     position: absolute;
@@ -155,13 +201,26 @@ $breakpoint argument choises:
         left: 0;
         padding: 0 10px;
         width: 100%;
-        top: 19rem; } }
+        top: 13rem; } }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--2-info {
+        top: 8rem;
+        font-size: 1.8rem;
+        line-height: 1.6rem; } }
   .big__cardwrap--2 strong {
     position: absolute;
     bottom: -38rem;
     left: 12rem;
     color: #fff;
     font-size: 3rem; }
+    @media only screen and (max-width: 37.5em) {
+      .big__cardwrap--2 strong {
+        bottom: -47rem; } }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--2 strong {
+        left: 1rem;
+        bottom: -42rem;
+        font-size: 2rem; } }
   .big__cardwrap--2-clipswrap {
     position: absolute;
     top: 78%;
@@ -171,6 +230,17 @@ $breakpoint argument choises:
     height: 20%;
     display: flex;
     justify-content: space-evenly; }
+    @media only screen and (max-width: 37.5em) {
+      .big__cardwrap--2-clipswrap {
+        top: 89%;
+        width: 65%;
+        height: 15%; } }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--2-clipswrap {
+        width: 75%;
+        justify-content: space-between;
+        height: 19%;
+        left: 59%; } }
     .big__cardwrap--2-clipswrap-clipswrap1 {
       width: 30%;
       height: auto; }
@@ -194,6 +264,9 @@ $breakpoint argument choises:
     font-size: 1.8rem;
     font-family: 'Sniglet', sans-serif;
     cursor: pointer; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--3-btn {
+        right: 9%; } }
   .big__cardwrap--3-card {
     position: relative; }
   .big__cardwrap--3-img {
@@ -204,6 +277,11 @@ $breakpoint argument choises:
     @media only screen and (max-width: 37.5em) {
       .big__cardwrap--3-img {
         top: -1rem; } }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--3-img {
+        left: -14%;
+        top: -1rem;
+        width: 59%; } }
   .big__cardwrap--3-name {
     position: absolute;
     right: 36%;
@@ -213,6 +291,10 @@ $breakpoint argument choises:
     @media only screen and (max-width: 37.5em) {
       .big__cardwrap--3-name {
         right: 21%; } }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--3-name {
+        right: 3%;
+        font-size: 2rem; } }
   .big__cardwrap--3-info {
     width: 50%;
     position: absolute;
@@ -232,12 +314,25 @@ $breakpoint argument choises:
         left: 0;
         padding: 0 10px;
         width: 100%; } }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--3-info {
+        top: 8rem;
+        font-size: 1.8rem;
+        line-height: 1.6rem; } }
   .big__cardwrap--3 strong {
     position: absolute;
     bottom: -38rem;
     left: 12rem;
     color: #fff;
     font-size: 3rem; }
+    @media only screen and (max-width: 37.5em) {
+      .big__cardwrap--3 strong {
+        bottom: -47rem; } }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--3 strong {
+        left: 1rem;
+        bottom: -42rem;
+        font-size: 2rem; } }
   .big__cardwrap--3-clipswrap {
     position: absolute;
     top: 78%;
@@ -247,6 +342,17 @@ $breakpoint argument choises:
     height: 20%;
     display: flex;
     justify-content: space-evenly; }
+    @media only screen and (max-width: 37.5em) {
+      .big__cardwrap--3-clipswrap {
+        top: 89%;
+        width: 65%;
+        height: 15%; } }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--3-clipswrap {
+        width: 75%;
+        justify-content: space-between;
+        height: 19%;
+        left: 59%; } }
     .big__cardwrap--3-clipswrap-clipswrap1 {
       width: 30%;
       height: auto; }
@@ -270,6 +376,9 @@ $breakpoint argument choises:
     font-size: 1.8rem;
     font-family: 'Sniglet', sans-serif;
     cursor: pointer; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--4-btn {
+        right: 33px; } }
   .big__cardwrap--4-card {
     position: relative; }
   .big__cardwrap--4-img {
@@ -277,6 +386,12 @@ $breakpoint argument choises:
     position: absolute;
     top: -13rem;
     left: 10%; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--4-img {
+        width: 33%;
+        position: absolute;
+        top: -12rem;
+        left: 10%; } }
   .big__cardwrap--4-name {
     position: absolute;
     right: 37%;
@@ -286,6 +401,10 @@ $breakpoint argument choises:
     @media only screen and (max-width: 37.5em) {
       .big__cardwrap--4-name {
         right: 21%; } }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--4-name {
+        right: 11%;
+        font-size: 2rem; } }
   .big__cardwrap--4-info {
     width: 50%;
     position: absolute;
@@ -305,12 +424,22 @@ $breakpoint argument choises:
         left: 0;
         padding: 0 10px;
         width: 100%; } }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--4-info {
+        top: 8rem;
+        font-size: 1.8rem;
+        line-height: 1.6rem; } }
   .big__cardwrap--4 strong {
     position: absolute;
     bottom: -50rem;
     left: 12rem;
     color: #fff;
     font-size: 3rem; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--4 strong {
+        left: 1rem;
+        bottom: -42rem;
+        font-size: 2rem; } }
   .big__cardwrap--4-clipswrap {
     position: absolute;
     top: 90%;
@@ -320,6 +449,12 @@ $breakpoint argument choises:
     height: 20%;
     display: flex;
     justify-content: space-evenly; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--4-clipswrap {
+        width: 75%;
+        justify-content: space-between;
+        height: 19%;
+        left: 59%; } }
     .big__cardwrap--4-clipswrap-clipswrap1 {
       width: 30%;
       height: auto; }
@@ -343,6 +478,9 @@ $breakpoint argument choises:
     font-size: 1.8rem;
     font-family: 'Sniglet', sans-serif;
     cursor: pointer; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--5-btn {
+        right: 33px; } }
   .big__cardwrap--5-card {
     position: relative; }
   .big__cardwrap--5-img {
@@ -350,6 +488,12 @@ $breakpoint argument choises:
     position: absolute;
     top: -12rem;
     left: 7%; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--5-img {
+        width: 49%;
+        position: absolute;
+        top: -11rem;
+        left: -1%; } }
   .big__cardwrap--5-name {
     position: absolute;
     right: 37%;
@@ -359,6 +503,10 @@ $breakpoint argument choises:
     @media only screen and (max-width: 37.5em) {
       .big__cardwrap--5-name {
         right: 21%; } }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--5-name {
+        right: 11%;
+        font-size: 2rem; } }
   .big__cardwrap--5-info {
     width: 50%;
     position: absolute;
@@ -378,12 +526,22 @@ $breakpoint argument choises:
         left: 0;
         padding: 0 10px;
         width: 100%; } }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--5-info {
+        top: 8rem;
+        font-size: 1.8rem;
+        line-height: 1.6rem; } }
   .big__cardwrap--5 strong {
     position: absolute;
     bottom: -50rem;
     left: 12rem;
     color: #fff;
     font-size: 3rem; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--5 strong {
+        left: 1rem;
+        bottom: -42rem;
+        font-size: 2rem; } }
   .big__cardwrap--5-clipswrap {
     position: absolute;
     top: 90%;
@@ -393,6 +551,12 @@ $breakpoint argument choises:
     height: 20%;
     display: flex;
     justify-content: space-evenly; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--5-clipswrap {
+        width: 75%;
+        justify-content: space-between;
+        height: 19%;
+        left: 59%; } }
     .big__cardwrap--5-clipswrap-clipswrap1 {
       width: 30%;
       height: auto; }
@@ -416,6 +580,9 @@ $breakpoint argument choises:
     font-size: 1.8rem;
     font-family: 'Sniglet', sans-serif;
     cursor: pointer; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--6-btn {
+        right: 33px; } }
   .big__cardwrap--6-card {
     position: relative; }
   .big__cardwrap--6-img {
@@ -423,6 +590,12 @@ $breakpoint argument choises:
     position: absolute;
     top: -12rem;
     left: 7%; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--6-img {
+        width: 33%;
+        position: absolute;
+        top: -9rem;
+        left: 7%; } }
   .big__cardwrap--6-name {
     position: absolute;
     right: 37%;
@@ -432,6 +605,10 @@ $breakpoint argument choises:
     @media only screen and (max-width: 37.5em) {
       .big__cardwrap--6-name {
         right: 21%; } }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--6-name {
+        right: 11%;
+        font-size: 2rem; } }
   .big__cardwrap--6-info {
     width: 50%;
     position: absolute;
@@ -451,12 +628,22 @@ $breakpoint argument choises:
         left: 0;
         padding: 0 10px;
         width: 100%; } }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--6-info {
+        top: 8rem;
+        font-size: 1.8rem;
+        line-height: 1.6rem; } }
   .big__cardwrap--6 strong {
     position: absolute;
     bottom: -50rem;
     left: 12rem;
     color: #fff;
     font-size: 3rem; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--6 strong {
+        left: 1rem;
+        bottom: -42rem;
+        font-size: 2rem; } }
   .big__cardwrap--6-clipswrap {
     position: absolute;
     top: 90%;
@@ -466,6 +653,12 @@ $breakpoint argument choises:
     height: 20%;
     display: flex;
     justify-content: space-evenly; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--6-clipswrap {
+        width: 75%;
+        justify-content: space-between;
+        height: 19%;
+        left: 59%; } }
     .big__cardwrap--6-clipswrap-clipswrap1 {
       width: 30%;
       height: auto; }
@@ -489,6 +682,9 @@ $breakpoint argument choises:
     font-size: 1.8rem;
     font-family: 'Sniglet', sans-serif;
     cursor: pointer; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--7-btn {
+        right: 33px; } }
   .big__cardwrap--7-card {
     position: relative; }
   .big__cardwrap--7-img {
@@ -496,6 +692,12 @@ $breakpoint argument choises:
     position: absolute;
     top: -12rem;
     left: 7%; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--7-img {
+        width: 43%;
+        position: absolute;
+        top: -12rem;
+        left: 6%; } }
   .big__cardwrap--7-name {
     position: absolute;
     right: 37%;
@@ -505,6 +707,10 @@ $breakpoint argument choises:
     @media only screen and (max-width: 37.5em) {
       .big__cardwrap--7-name {
         right: 21%; } }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--7-name {
+        right: 11%;
+        font-size: 2rem; } }
   .big__cardwrap--7-info {
     width: 50%;
     position: absolute;
@@ -524,12 +730,22 @@ $breakpoint argument choises:
         left: 0;
         padding: 0 10px;
         width: 100%; } }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--7-info {
+        top: 8rem;
+        font-size: 1.8rem;
+        line-height: 1.6rem; } }
   .big__cardwrap--7 strong {
     position: absolute;
     bottom: -50rem;
     left: 12rem;
     color: #fff;
     font-size: 3rem; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--7 strong {
+        left: 1rem;
+        bottom: -42rem;
+        font-size: 2rem; } }
   .big__cardwrap--7-clipswrap {
     position: absolute;
     top: 90%;
@@ -539,6 +755,12 @@ $breakpoint argument choises:
     height: 20%;
     display: flex;
     justify-content: space-evenly; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--7-clipswrap {
+        width: 75%;
+        justify-content: space-between;
+        height: 19%;
+        left: 59%; } }
     .big__cardwrap--7-clipswrap-clipswrap1 {
       width: 30%;
       height: auto; }
@@ -562,6 +784,9 @@ $breakpoint argument choises:
     font-size: 1.8rem;
     font-family: 'Sniglet', sans-serif;
     cursor: pointer; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--8-btn {
+        right: 33px; } }
   .big__cardwrap--8-card {
     position: relative; }
   .big__cardwrap--8-img {
@@ -569,6 +794,12 @@ $breakpoint argument choises:
     position: absolute;
     top: -12rem;
     left: 0; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--8-img {
+        width: 60%;
+        position: absolute;
+        top: -9rem;
+        left: -4%; } }
   .big__cardwrap--8-name {
     position: absolute;
     right: 37%;
@@ -578,6 +809,10 @@ $breakpoint argument choises:
     @media only screen and (max-width: 37.5em) {
       .big__cardwrap--8-name {
         right: 21%; } }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--8-name {
+        right: 11%;
+        font-size: 2rem; } }
   .big__cardwrap--8-info {
     width: 50%;
     position: absolute;
@@ -597,12 +832,22 @@ $breakpoint argument choises:
         left: 0;
         padding: 0 10px;
         width: 100%; } }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--8-info {
+        top: 8rem;
+        font-size: 1.8rem;
+        line-height: 1.6rem; } }
   .big__cardwrap--8 strong {
     position: absolute;
     bottom: -50rem;
     left: 12rem;
     color: #fff;
     font-size: 3rem; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--8 strong {
+        left: 1rem;
+        bottom: -42rem;
+        font-size: 2rem; } }
   .big__cardwrap--8-clipswrap {
     position: absolute;
     top: 90%;
@@ -612,6 +857,12 @@ $breakpoint argument choises:
     height: 20%;
     display: flex;
     justify-content: space-evenly; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--8-clipswrap {
+        width: 75%;
+        justify-content: space-between;
+        height: 19%;
+        left: 59%; } }
     .big__cardwrap--8-clipswrap-clipswrap1 {
       width: 30%;
       height: auto; }
@@ -635,6 +886,9 @@ $breakpoint argument choises:
     font-size: 1.8rem;
     font-family: 'Sniglet', sans-serif;
     cursor: pointer; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--9-btn {
+        right: 33px; } }
   .big__cardwrap--9-card {
     position: relative; }
   .big__cardwrap--9-img {
@@ -642,6 +896,12 @@ $breakpoint argument choises:
     position: absolute;
     top: -12rem;
     left: 7%; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--9-img {
+        width: 53%;
+        position: absolute;
+        top: -13rem;
+        left: -2%; } }
   .big__cardwrap--9-name {
     position: absolute;
     right: 37%;
@@ -651,6 +911,10 @@ $breakpoint argument choises:
     @media only screen and (max-width: 37.5em) {
       .big__cardwrap--9-name {
         right: 21%; } }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--9-name {
+        right: 11%;
+        font-size: 2rem; } }
   .big__cardwrap--9-info {
     width: 50%;
     position: absolute;
@@ -670,12 +934,22 @@ $breakpoint argument choises:
         left: 0;
         padding: 0 10px;
         width: 100%; } }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--9-info {
+        top: 8rem;
+        font-size: 1.8rem;
+        line-height: 1.6rem; } }
   .big__cardwrap--9 strong {
     position: absolute;
     bottom: -50rem;
     left: 12rem;
     color: #fff;
     font-size: 3rem; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--9 strong {
+        left: 1rem;
+        bottom: -42rem;
+        font-size: 2rem; } }
   .big__cardwrap--9-clipswrap {
     position: absolute;
     top: 90%;
@@ -685,6 +959,12 @@ $breakpoint argument choises:
     height: 20%;
     display: flex;
     justify-content: space-evenly; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--9-clipswrap {
+        width: 75%;
+        justify-content: space-between;
+        height: 19%;
+        left: 59%; } }
     .big__cardwrap--9-clipswrap-clipswrap1 {
       width: 30%;
       height: auto; }
@@ -708,6 +988,9 @@ $breakpoint argument choises:
     font-size: 1.8rem;
     font-family: 'Sniglet', sans-serif;
     cursor: pointer; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--10-btn {
+        right: 33px; } }
   .big__cardwrap--10-card {
     position: relative; }
   .big__cardwrap--10-img {
@@ -715,6 +998,12 @@ $breakpoint argument choises:
     position: absolute;
     top: -12rem;
     left: 7%; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--10-img {
+        width: 46%;
+        position: absolute;
+        top: -12rem;
+        left: 10%; } }
   .big__cardwrap--10-name {
     position: absolute;
     right: 37%;
@@ -724,6 +1013,10 @@ $breakpoint argument choises:
     @media only screen and (max-width: 37.5em) {
       .big__cardwrap--10-name {
         right: 21%; } }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--10-name {
+        right: 11%;
+        font-size: 2rem; } }
   .big__cardwrap--10-info {
     width: 50%;
     position: absolute;
@@ -743,12 +1036,22 @@ $breakpoint argument choises:
         left: 0;
         padding: 0 10px;
         width: 100%; } }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--10-info {
+        top: 8rem;
+        font-size: 1.8rem;
+        line-height: 1.6rem; } }
   .big__cardwrap--10 strong {
     position: absolute;
     bottom: -50rem;
     left: 12rem;
     color: #fff;
     font-size: 3rem; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--10 strong {
+        left: 1rem;
+        bottom: -42rem;
+        font-size: 2rem; } }
   .big__cardwrap--10-clipswrap {
     position: absolute;
     top: 90%;
@@ -758,6 +1061,12 @@ $breakpoint argument choises:
     height: 20%;
     display: flex;
     justify-content: space-evenly; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--10-clipswrap {
+        width: 75%;
+        justify-content: space-between;
+        height: 19%;
+        left: 59%; } }
     .big__cardwrap--10-clipswrap-clipswrap1 {
       width: 30%;
       height: auto; }
@@ -781,6 +1090,9 @@ $breakpoint argument choises:
     font-size: 1.8rem;
     font-family: 'Sniglet', sans-serif;
     cursor: pointer; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--11-btn {
+        right: 33px; } }
   .big__cardwrap--11-card {
     position: relative; }
   .big__cardwrap--11-img {
@@ -788,6 +1100,12 @@ $breakpoint argument choises:
     position: absolute;
     top: -12rem;
     left: 0; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--11-img {
+        width: 36%;
+        position: absolute;
+        top: -12rem;
+        left: 10%; } }
   .big__cardwrap--11-name {
     position: absolute;
     right: 37%;
@@ -797,6 +1115,10 @@ $breakpoint argument choises:
     @media only screen and (max-width: 37.5em) {
       .big__cardwrap--11-name {
         right: 21%; } }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--11-name {
+        right: 11%;
+        font-size: 2rem; } }
   .big__cardwrap--11-info {
     width: 50%;
     position: absolute;
@@ -816,12 +1138,22 @@ $breakpoint argument choises:
         left: 0;
         padding: 0 10px;
         width: 100%; } }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--11-info {
+        top: 8rem;
+        font-size: 1.8rem;
+        line-height: 1.6rem; } }
   .big__cardwrap--11 strong {
     position: absolute;
     bottom: -50rem;
     left: 12rem;
     color: #fff;
     font-size: 3rem; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--11 strong {
+        left: 1rem;
+        bottom: -42rem;
+        font-size: 2rem; } }
   .big__cardwrap--11-clipswrap {
     position: absolute;
     top: 90%;
@@ -831,6 +1163,12 @@ $breakpoint argument choises:
     height: 20%;
     display: flex;
     justify-content: space-evenly; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--11-clipswrap {
+        width: 75%;
+        justify-content: space-between;
+        height: 19%;
+        left: 59%; } }
     .big__cardwrap--11-clipswrap-clipswrap1 {
       width: 30%;
       height: auto; }
@@ -854,6 +1192,9 @@ $breakpoint argument choises:
     font-size: 1.8rem;
     font-family: 'Sniglet', sans-serif;
     cursor: pointer; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--12-btn {
+        right: 33px; } }
   .big__cardwrap--12-card {
     position: relative; }
   .big__cardwrap--12-img {
@@ -861,6 +1202,12 @@ $breakpoint argument choises:
     position: absolute;
     top: -12rem;
     left: 7%; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--12-img {
+        width: 31%;
+        position: absolute;
+        top: -12rem;
+        left: 10%; } }
   .big__cardwrap--12-name {
     position: absolute;
     right: 37%;
@@ -870,6 +1217,10 @@ $breakpoint argument choises:
     @media only screen and (max-width: 37.5em) {
       .big__cardwrap--12-name {
         right: 21%; } }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--12-name {
+        right: 11%;
+        font-size: 2rem; } }
   .big__cardwrap--12-info {
     width: 50%;
     position: absolute;
@@ -889,12 +1240,22 @@ $breakpoint argument choises:
         left: 0;
         padding: 0 10px;
         width: 100%; } }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--12-info {
+        top: 8rem;
+        font-size: 1.8rem;
+        line-height: 1.6rem; } }
   .big__cardwrap--12 strong {
     position: absolute;
     bottom: -50rem;
     left: 12rem;
     color: #fff;
     font-size: 3rem; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--12 strong {
+        left: 1rem;
+        bottom: -42rem;
+        font-size: 2rem; } }
   .big__cardwrap--12-clipswrap {
     position: absolute;
     top: 90%;
@@ -904,6 +1265,12 @@ $breakpoint argument choises:
     height: 20%;
     display: flex;
     justify-content: space-evenly; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--12-clipswrap {
+        width: 75%;
+        justify-content: space-between;
+        height: 19%;
+        left: 59%; } }
     .big__cardwrap--12-clipswrap-clipswrap1 {
       width: 30%;
       height: auto; }
@@ -927,6 +1294,9 @@ $breakpoint argument choises:
     font-size: 1.8rem;
     font-family: 'Sniglet', sans-serif;
     cursor: pointer; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--13-btn {
+        right: 33px; } }
   .big__cardwrap--13-card {
     position: relative; }
   .big__cardwrap--13-img {
@@ -934,6 +1304,12 @@ $breakpoint argument choises:
     position: absolute;
     top: -20rem;
     left: 2%; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--13-img {
+        width: 51%;
+        position: absolute;
+        top: -12rem;
+        left: -1%; } }
   .big__cardwrap--13-name {
     position: absolute;
     right: 37%;
@@ -943,6 +1319,10 @@ $breakpoint argument choises:
     @media only screen and (max-width: 37.5em) {
       .big__cardwrap--13-name {
         right: 21%; } }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--13-name {
+        right: 11%;
+        font-size: 2rem; } }
   .big__cardwrap--13-info {
     width: 50%;
     position: absolute;
@@ -962,12 +1342,22 @@ $breakpoint argument choises:
         left: 0;
         padding: 0 10px;
         width: 100%; } }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--13-info {
+        top: 8rem;
+        font-size: 1.8rem;
+        line-height: 1.6rem; } }
   .big__cardwrap--13 strong {
     position: absolute;
     bottom: -50rem;
     left: 12rem;
     color: #fff;
     font-size: 3rem; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--13 strong {
+        left: 1rem;
+        bottom: -42rem;
+        font-size: 2rem; } }
   .big__cardwrap--13-clipswrap {
     position: absolute;
     top: 90%;
@@ -977,6 +1367,12 @@ $breakpoint argument choises:
     height: 20%;
     display: flex;
     justify-content: space-evenly; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--13-clipswrap {
+        width: 75%;
+        justify-content: space-between;
+        height: 19%;
+        left: 59%; } }
     .big__cardwrap--13-clipswrap-clipswrap1 {
       width: 30%;
       height: auto; }
@@ -1000,6 +1396,9 @@ $breakpoint argument choises:
     font-size: 1.8rem;
     font-family: 'Sniglet', sans-serif;
     cursor: pointer; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--14-btn {
+        right: 33px; } }
   .big__cardwrap--14-card {
     position: relative; }
   .big__cardwrap--14-img {
@@ -1007,6 +1406,12 @@ $breakpoint argument choises:
     position: absolute;
     top: -12rem;
     left: 5%; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--14-img {
+        width: 58%;
+        position: absolute;
+        top: -7rem;
+        left: -1%; } }
   .big__cardwrap--14-name {
     position: absolute;
     right: 37%;
@@ -1016,6 +1421,10 @@ $breakpoint argument choises:
     @media only screen and (max-width: 37.5em) {
       .big__cardwrap--14-name {
         right: 21%; } }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--14-name {
+        right: 11%;
+        font-size: 2rem; } }
   .big__cardwrap--14-info {
     width: 50%;
     position: absolute;
@@ -1035,12 +1444,22 @@ $breakpoint argument choises:
         left: 0;
         padding: 0 10px;
         width: 100%; } }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--14-info {
+        top: 8rem;
+        font-size: 1.8rem;
+        line-height: 1.6rem; } }
   .big__cardwrap--14 strong {
     position: absolute;
     bottom: -50rem;
     left: 12rem;
     color: #fff;
     font-size: 3rem; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--14 strong {
+        left: 1rem;
+        bottom: -42rem;
+        font-size: 2rem; } }
   .big__cardwrap--14-clipswrap {
     position: absolute;
     top: 90%;
@@ -1050,6 +1469,12 @@ $breakpoint argument choises:
     height: 20%;
     display: flex;
     justify-content: space-evenly; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--14-clipswrap {
+        width: 75%;
+        justify-content: space-between;
+        height: 19%;
+        left: 59%; } }
     .big__cardwrap--14-clipswrap-clipswrap1 {
       width: 30%;
       height: auto; }
@@ -1073,6 +1498,9 @@ $breakpoint argument choises:
     font-size: 1.8rem;
     font-family: 'Sniglet', sans-serif;
     cursor: pointer; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--15-btn {
+        right: 33px; } }
   .big__cardwrap--15-card {
     position: relative; }
   .big__cardwrap--15-img {
@@ -1080,6 +1508,12 @@ $breakpoint argument choises:
     position: absolute;
     top: -12rem;
     left: 7%; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--15-img {
+        width: 42%;
+        position: absolute;
+        top: -12rem;
+        left: 2%; } }
   .big__cardwrap--15-name {
     position: absolute;
     right: 37%;
@@ -1089,6 +1523,10 @@ $breakpoint argument choises:
     @media only screen and (max-width: 37.5em) {
       .big__cardwrap--15-name {
         right: 21%; } }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--15-name {
+        right: 11%;
+        font-size: 2rem; } }
   .big__cardwrap--15-info {
     width: 50%;
     position: absolute;
@@ -1108,12 +1546,22 @@ $breakpoint argument choises:
         left: 0;
         padding: 0 10px;
         width: 100%; } }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--15-info {
+        top: 8rem;
+        font-size: 1.8rem;
+        line-height: 1.6rem; } }
   .big__cardwrap--15 strong {
     position: absolute;
     bottom: -50rem;
     left: 12rem;
     color: #fff;
     font-size: 3rem; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--15 strong {
+        left: 1rem;
+        bottom: -42rem;
+        font-size: 2rem; } }
   .big__cardwrap--15-clipswrap {
     position: absolute;
     top: 90%;
@@ -1123,6 +1571,12 @@ $breakpoint argument choises:
     height: 20%;
     display: flex;
     justify-content: space-evenly; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--15-clipswrap {
+        width: 75%;
+        justify-content: space-between;
+        height: 19%;
+        left: 59%; } }
     .big__cardwrap--15-clipswrap-clipswrap1 {
       width: 30%;
       height: auto; }
@@ -1146,6 +1600,9 @@ $breakpoint argument choises:
     font-size: 1.8rem;
     font-family: 'Sniglet', sans-serif;
     cursor: pointer; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--16-btn {
+        right: 33px; } }
   .big__cardwrap--16-card {
     position: relative; }
   .big__cardwrap--16-img {
@@ -1153,6 +1610,12 @@ $breakpoint argument choises:
     position: absolute;
     top: -12rem;
     left: 2%; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--16-img {
+        width: 39%;
+        position: absolute;
+        top: -12rem;
+        left: 3%; } }
   .big__cardwrap--16-name {
     position: absolute;
     right: 37%;
@@ -1162,6 +1625,10 @@ $breakpoint argument choises:
     @media only screen and (max-width: 37.5em) {
       .big__cardwrap--16-name {
         right: 21%; } }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--16-name {
+        right: 11%;
+        font-size: 2rem; } }
   .big__cardwrap--16-info {
     width: 50%;
     position: absolute;
@@ -1181,12 +1648,22 @@ $breakpoint argument choises:
         left: 0;
         padding: 0 10px;
         width: 100%; } }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--16-info {
+        top: 8rem;
+        font-size: 1.8rem;
+        line-height: 1.6rem; } }
   .big__cardwrap--16 strong {
     position: absolute;
     bottom: -50rem;
     left: 12rem;
     color: #fff;
     font-size: 3rem; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--16 strong {
+        left: 1rem;
+        bottom: -42rem;
+        font-size: 2rem; } }
   .big__cardwrap--16-clipswrap {
     position: absolute;
     top: 90%;
@@ -1196,6 +1673,12 @@ $breakpoint argument choises:
     height: 20%;
     display: flex;
     justify-content: space-evenly; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--16-clipswrap {
+        width: 75%;
+        justify-content: space-between;
+        height: 19%;
+        left: 59%; } }
     .big__cardwrap--16-clipswrap-clipswrap1 {
       width: 30%;
       height: auto; }
@@ -1219,6 +1702,9 @@ $breakpoint argument choises:
     font-size: 1.8rem;
     font-family: 'Sniglet', sans-serif;
     cursor: pointer; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--17-btn {
+        right: 33px; } }
   .big__cardwrap--17-card {
     position: relative; }
   .big__cardwrap--17-img {
@@ -1226,6 +1712,12 @@ $breakpoint argument choises:
     position: absolute;
     top: -12rem;
     left: 5%; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--17-img {
+        width: 57%;
+        position: absolute;
+        top: -12rem;
+        left: -5%; } }
   .big__cardwrap--17-name {
     position: absolute;
     right: 37%;
@@ -1235,6 +1727,10 @@ $breakpoint argument choises:
     @media only screen and (max-width: 37.5em) {
       .big__cardwrap--17-name {
         right: 21%; } }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--17-name {
+        right: 11%;
+        font-size: 2rem; } }
   .big__cardwrap--17-info {
     width: 50%;
     position: absolute;
@@ -1254,12 +1750,22 @@ $breakpoint argument choises:
         left: 0;
         padding: 0 10px;
         width: 100%; } }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--17-info {
+        top: 8rem;
+        font-size: 1.8rem;
+        line-height: 1.6rem; } }
   .big__cardwrap--17 strong {
     position: absolute;
     bottom: -50rem;
     left: 12rem;
     color: #fff;
     font-size: 3rem; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--17 strong {
+        left: 1rem;
+        bottom: -42rem;
+        font-size: 2rem; } }
   .big__cardwrap--17-clipswrap {
     position: absolute;
     top: 90%;
@@ -1269,6 +1775,12 @@ $breakpoint argument choises:
     height: 20%;
     display: flex;
     justify-content: space-evenly; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--17-clipswrap {
+        width: 75%;
+        justify-content: space-between;
+        height: 19%;
+        left: 59%; } }
     .big__cardwrap--17-clipswrap-clipswrap1 {
       width: 30%;
       height: auto; }
@@ -1292,6 +1804,9 @@ $breakpoint argument choises:
     font-size: 1.8rem;
     font-family: 'Sniglet', sans-serif;
     cursor: pointer; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--18-btn {
+        right: 33px; } }
   .big__cardwrap--18-card {
     position: relative; }
   .big__cardwrap--18-img {
@@ -1299,6 +1814,12 @@ $breakpoint argument choises:
     position: absolute;
     top: -12rem;
     left: 7%; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--18-img {
+        width: 42%;
+        position: absolute;
+        top: -12rem;
+        left: -2%; } }
   .big__cardwrap--18-name {
     position: absolute;
     right: 37%;
@@ -1308,6 +1829,10 @@ $breakpoint argument choises:
     @media only screen and (max-width: 37.5em) {
       .big__cardwrap--18-name {
         right: 21%; } }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--18-name {
+        right: 11%;
+        font-size: 2rem; } }
   .big__cardwrap--18-info {
     width: 50%;
     position: absolute;
@@ -1327,12 +1852,22 @@ $breakpoint argument choises:
         left: 0;
         padding: 0 10px;
         width: 100%; } }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--18-info {
+        top: 8rem;
+        font-size: 1.8rem;
+        line-height: 1.6rem; } }
   .big__cardwrap--18 strong {
     position: absolute;
     bottom: -50rem;
     left: 12rem;
     color: #fff;
     font-size: 3rem; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--18 strong {
+        left: 1rem;
+        bottom: -42rem;
+        font-size: 2rem; } }
   .big__cardwrap--18-clipswrap {
     position: absolute;
     top: 90%;
@@ -1342,6 +1877,12 @@ $breakpoint argument choises:
     height: 20%;
     display: flex;
     justify-content: space-evenly; }
+    @media only screen and (max-width: 28.7em) {
+      .big__cardwrap--18-clipswrap {
+        width: 75%;
+        justify-content: space-between;
+        height: 19%;
+        left: 59%; } }
     .big__cardwrap--18-clipswrap-clipswrap1 {
       width: 30%;
       height: auto; }
@@ -2268,6 +2809,9 @@ i.fa-search {
   @media only screen and (max-width: 37.5em) {
     .bx-wrapper .bx-prev {
       left: 77% !important; } }
+  @media only screen and (max-width: 28.7em) {
+    .bx-wrapper .bx-prev {
+      left: 67% !important; } }
   .bx-wrapper .bx-prev:hover {
     color: #3b4aa3; }
   .bx-wrapper .bx-prev::after {
@@ -2307,6 +2851,9 @@ i.fa-search {
   color: black;
   font-family: 'Sniglet', sans-serif;
   font-weight: bold; }
+  @media only screen and (max-width: 28.7em) {
+    .bx-wrapper .bx-controls-direction a {
+      margin-top: -23px !important; } }
 
 *,
 *::before,
@@ -2329,6 +2876,9 @@ body {
 html {
   box-sizing: border-box;
   font-size: 62.5%; }
+  @media only screen and (max-width: 28.7em) {
+    html {
+      font-size: 37.5%; } }
   @media only screen and (max-width: 37.5em) {
     html {
       font-size: 50%; } }
@@ -2351,6 +2901,11 @@ html {
   height: 20px;
   top: 87%;
   left: 22%; }
+  @media only screen and (max-width: 28.7em) {
+    .list {
+      top: 100%; } }
+  .list-item {
+    transition: all 1s; }
 
 .header {
   display: flex;
@@ -2358,6 +2913,11 @@ html {
   @media only screen and (max-width: 37.5em) {
     .header {
       flex-wrap: wrap; } }
+  @media only screen and (max-width: 28.7em) {
+    .header {
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center; } }
   .header__logo {
     width: 33.3%;
     display: flex;
@@ -2368,6 +2928,9 @@ html {
       .header__logo {
         padding: 0;
         order: 1; } }
+    @media only screen and (max-width: 28.7em) {
+      .header__logo {
+        justify-content: center; } }
     .header__logo--img {
       margin-right: 10px; }
     .header__logo--text {
@@ -2516,6 +3079,9 @@ html {
   @media only screen and (max-width: 37.5em) {
     .mainwrap {
       margin-top: 0; } }
+  @media only screen and (max-width: 28.7em) {
+    .mainwrap {
+      margin-top: 35px; } }
 
 .bodywrap {
   max-width: 160rem;
